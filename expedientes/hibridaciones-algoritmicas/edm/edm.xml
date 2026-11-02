@@ -5,10 +5,19 @@
    xmlns:edm="http://www.europeana.eu/schemas/edm/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
+  <rdf:Description rdf:about="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#aggregation">
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <edm:aggregatedCHO rdf:resource="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#cho"/>
+    <edm:isShownBy rdf:resource="https://zenodo.org/records/23883743/files/2-imagen_5-VAR-1-GPT7_1200px.jpg"/>
+    <edm:isShownAt rdf:resource="https://doi.org/10.5281/zenodo.23883743"/>
+    <edm:dataProvider>IPEX, Universidad Rey Juan Carlos</edm:dataProvider>
+    <edm:provider>IPEX, Universidad Rey Juan Carlos</edm:provider>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#cho">
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/ProvidedCHO"/>
     <dc:title xml:lang="es">5 VAR-1 GPT7</dc:title>
-    <dc:creator>Alonso López Iniesta, Juan</dc:creator>
+    <dc:creator>López Iniesta, Juan Alonso</dc:creator>
     <dc:contributor>Herrero Cantos, Mauro</dc:contributor>
     <dc:description xml:lang="es">Dibujo en técnica mixta. Un volumen de líneas oscuras de contorno curvo queda interrumpido por una franja horizontal sin trazos, bajo la cual continúa un segundo volumen. Una serie de líneas rojas de trazo irregular se superpone, desplazada, a la mitad inferior del volumen superior.</dc:description>
     <dc:type xml:lang="es">Dibujo</dc:type>
@@ -19,16 +28,7 @@
     <dc:subject xml:lang="es">Arte generativo</dc:subject>
     <edm:type>IMAGE</edm:type>
   </rdf:Description>
-  <rdf:Description rdf:about="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#aggregation">
-    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
-    <edm:aggregatedCHO rdf:resource="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#cho"/>
-    <edm:isShownBy rdf:resource="https://zenodo.org/records/23883743/files/5-VAR-1-GPT7_1200px.jpg"/>
-    <edm:isShownAt rdf:resource="https://doi.org/10.5281/zenodo.23883743"/>
-    <edm:dataProvider>IPEX, Universidad Rey Juan Carlos</edm:dataProvider>
-    <edm:provider>IPEX, Universidad Rey Juan Carlos</edm:provider>
-    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://zenodo.org/records/23883743/files/5-VAR-1-GPT7_1200px.jpg">
+  <rdf:Description rdf:about="https://zenodo.org/records/23883743/files/2-imagen_5-VAR-1-GPT7_1200px.jpg">
     <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
     <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
     <dc:format>image/jpeg</dc:format>

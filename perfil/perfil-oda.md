@@ -1,6 +1,6 @@
 # Perfil de aplicación ODA (versión del demostrador)
 
-Este perfil traduce a datos el esquema de metadatos del libro *Objeto Digital Aurático* (Battaner Moro y Alonso López Iniesta, Peter Lang, 2025, cap. 4). Mantiene sus cinco categorías (Descriptiva, Técnica, Preservación, Derechos y Arte) y la marca de cada elemento como obligatorio (C) u opcional (O). La lista completa está en [`perfil-oda.csv`](perfil-oda.csv).
+Este perfil traduce a datos el esquema de metadatos del libro *Objeto Digital Aurático* (Battaner Moro y López Iniesta, Peter Lang, 2025, cap. 4). Mantiene sus cinco categorías (Descriptiva, Técnica, Preservación, Derechos y Arte) y la marca de cada elemento como obligatorio (C) u opcional (O). La lista completa está en [`perfil-oda.csv`](perfil-oda.csv).
 
 ## El continuum
 

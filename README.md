@@ -2,7 +2,7 @@
 
 Este repositorio aplica de principio a fin el método ODA (*Objeto Digital Aurático*) a una obra real: **Hibridaciones algorítmicas**, de Juan Alonso López Iniesta, y su obra resultante **«5 VAR-1 GPT7»** (técnica mixta: plotter de pluma e intervención del autor; montaje y soporte de Mauro Herrero Cantos).
 
-Repositorio: <https://github.com/IPEX-LAB/oda-demostrador>. Lo prepara el grupo IPEX (Grupo de Investigación en Interfaces y Prototipos Experimentales, Universidad Rey Juan Carlos). Parte del esquema de metadatos del libro *Objeto Digital Aurático* (Battaner Moro y Alonso López Iniesta, Peter Lang, 2025).
+Repositorio: <https://github.com/IPEX-LAB/oda-demostrador>. Lo prepara el grupo IPEX (Grupo de Investigación en Interfaces y Prototipos Experimentales, Universidad Rey Juan Carlos). Parte del esquema de metadatos del libro *Objeto Digital Aurático* (Battaner Moro y López Iniesta, Peter Lang, 2025).
 
 ## Qué contiene
 

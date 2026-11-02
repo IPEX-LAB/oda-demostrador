@@ -25,7 +25,7 @@ RAIZ = Path(__file__).resolve().parent.parent
 EDM = Namespace("http://www.europeana.eu/schemas/edm/")
 ORE = Namespace("http://www.openarchives.org/ore/terms/")
 BASE = "https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#"
-MARCADOR = "https://zenodo.org/records/23883743/files/5-VAR-1-GPT7_1200px.jpg"
+MARCADOR = "https://zenodo.org/records/23883743/files/2-imagen_5-VAR-1-GPT7_1200px.jpg"
 PAGINA = "https://doi.org/10.5281/zenodo.23883743"
 CCBYNCND = URIRef("http://creativecommons.org/licenses/by-nc-nd/4.0/")
 
@@ -54,7 +54,7 @@ def main():
 
     g.add((cho, RDF.type, EDM.ProvidedCHO))
     g.add((cho, DC.title, Literal(valor(exp, "5-var-1-gpt7", "e1_1_titulo"), lang="es")))
-    g.add((cho, DC.creator, Literal("Alonso López Iniesta, Juan")))
+    g.add((cho, DC.creator, Literal("López Iniesta, Juan Alonso")))
     g.add((cho, DC.contributor, Literal("Herrero Cantos, Mauro")))
     g.add((cho, DC.description, Literal(valor(exp, "5-var-1-gpt7", "e1_4_descripcion"), lang="es")))
     g.add((cho, DC.type, Literal("Dibujo", lang="es")))

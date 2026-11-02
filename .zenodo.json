@@ -4,7 +4,7 @@
   "description": "<p>Perfil de aplicación del esquema de metadatos ODA (Objeto Digital Aurático), con los 40 elementos del libro <em>Objeto Digital Aurático</em> (Peter Lang, 2025) y su obligatoriedad, reglas SHACL, correspondencias con Dublin Core, EDM, Linked Art / CIDOC-CRM, PREMIS, RiC-O y schema.org, y scripts para validar, empaquetar en RO-Crate 1.2 y exportar a EDM. Incluye como ejemplo el expediente de <em>Hibridaciones algorítmicas</em>. Preparado por IPEX, Grupo de Investigación en Interfaces y Prototipos Experimentales (URJC).</p>",
   "creators": [
     {
-      "name": "Alonso López Iniesta, Juan",
+      "name": "López Iniesta, Juan Alonso",
       "affiliation": "Universidad Rey Juan Carlos",
       "orcid": "0000-0003-3630-5474"
     },
