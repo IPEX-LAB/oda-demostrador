@@ -1,4 +1,4 @@
-# Diagnóstico de preservación y valoración aurática
+# Diagnóstico y condición de preservación
 
 **Obra:** Hibridaciones algorítmicas (Juan Alonso López Iniesta)
 **Obra resultante:** «5 VAR-1 GPT7» (Juan Alonso López Iniesta; montaje y soporte de Mauro Herrero Cantos). Técnica mixta: plotter de pluma e intervención del autor.
@@ -85,9 +85,9 @@ Son las propiedades que cualquier migración, reproducción o exhibición futura
 - **Imagen:** conservar el máster en PNG sin pérdida (o en TIFF si se hace una captura nueva) y usar JPEG solo para las representaciones.
 - **Metadatos:** mantener el expediente en JSON-LD y RO-Crate, con exportación a EDM para Hispana y Europeana.
 
-## Valoración razonada de la condición aurática
+## Valoración razonada de la condición de preservación
 
-El libro sitúa la condición aurática en un continuum entre débil y fuerte. Depende de los metadatos que la obra satisface y de una valoración experta y colegiada (cap. 3–5). Lo que sigue aplica sus criterios a la documentación disponible. Es una propuesta del equipo y se puede revisar en cuanto aparezca información nueva.
+El demostrador sitúa la condición de preservación de la obra en un continuum entre débil y fuerte, a partir del planteamiento del libro (cap. 3–5). Depende de los metadatos que la obra satisface y de una valoración experta y colegiada. Lo que sigue aplica los criterios del libro a la documentación disponible. Es una propuesta del equipo y se puede revisar en cuanto aparezca información nueva.
 
 | Criterio del libro | Evidencia disponible | Efecto |
 |---|---|---|
@@ -99,7 +99,7 @@ El libro sitúa la condición aurática en un continuum entre débil y fuerte. D
 | Importancia cultural | No hay recepción crítica ni contexto histórico documentados | Sin datos suficientes |
 | Impacto en los espectadores | No hay registros | Sin datos suficientes |
 
-**Propuesta: condición aurática intermedia, con potencial para reforzarse.** Los criterios que dependen de la obra y de su proceso (singularidad, relación con lo digital, condiciones de creación) apuntan hacia el polo fuerte. Los que dependen de su recorrido público (exhibición, recepción, impacto) carecen de datos, y mientras falten la valoración no puede ir más allá. Los pasos que más la harían avanzar son documentar la intervención, identificar la versión del código y reunir la documentación de la exposición en el COAM y cualquier texto crítico.
+**Propuesta: condición de preservación intermedia, con potencial para reforzarse.** Los criterios que dependen de la obra y de su proceso (singularidad, relación con lo digital, condiciones de creación) apuntan hacia el polo fuerte. Los que dependen de su recorrido público (exhibición, recepción, impacto) carecen de datos, y mientras falten la valoración no puede ir más allá. Los pasos que más la harían avanzar son documentar la intervención, identificar la versión del código y reunir la documentación de la exposición en el COAM y cualquier texto crítico.
 
 ## Cuestiones abiertas
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Genera perfil/shapes.ttl (reglas SHACL) a partir de perfil/perfil-oda.csv.
 
-Criterio (libro ODA, cap. 3-5): la condición aurática es un continuum, no un sí/no.
+Criterio (libro ODA, cap. 3-5): la condición de preservación es un continuum, no un sí/no.
 - Elemento obligatorio (C): debe estar TRATADO, es decir, cubierto o declarado como
   laguna con su motivo. Si no está tratado -> sh:Violation.
 - Elemento opcional (O): si falta -> sh:Warning (informa, no bloquea).

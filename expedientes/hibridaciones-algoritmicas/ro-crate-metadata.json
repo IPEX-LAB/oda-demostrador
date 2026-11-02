@@ -15,7 +15,7 @@
       "@id": "./",
       "@type": "Dataset",
       "name": "Expediente ODA de Hibridaciones algorítmicas",
-      "description": "Demostrador del método ODA (Objeto Digital Aurático) aplicado a la obra Hibridaciones algorítmicas de Juan Alonso López Iniesta y a su obra resultante «5 VAR-1 GPT7». Reúne el expediente de metadatos, las relaciones con su estatuto epistemológico, el diagnóstico de preservación y una valoración razonada de la condición aurática. No es una evaluación de Fund_ODA.",
+      "description": "Demostrador del método ODA (Objeto Digital Aurático) aplicado a la obra Hibridaciones algorítmicas de Juan Alonso López Iniesta y a su obra resultante «5 VAR-1 GPT7». Reúne el expediente de metadatos, las relaciones con su estatuto epistemológico, el diagnóstico de preservación y una valoración razonada de la condición de preservación. No es una evaluación de Fund_ODA.",
       "datePublished": "2026-11-02",
       "identifier": "https://doi.org/10.5281/zenodo.23883743",
       "isBasedOn": {
@@ -119,7 +119,7 @@
       "name": "Expediente ODA (registros y afirmaciones)",
       "encodingFormat": "application/ld+json",
       "description": "Registros de los 40 elementos del perfil ODA y afirmaciones relacionales con estatuto epistemológico.",
-      "contentSize": "26686",
+      "contentSize": "26693",
       "conformsTo": {
         "@id": "https://w3id.org/oda-lab/perfil"
       }
@@ -165,13 +165,13 @@
     {
       "@id": "diagnostico/diagnostico.md",
       "@type": "File",
-      "name": "Diagnóstico de preservación y valoración aurática",
+      "name": "Diagnóstico y condición de preservación",
       "encodingFormat": "text/markdown",
-      "description": "Diagnóstico en cuatro dimensiones, plan de preservación y propuesta razonada de condición aurática.",
+      "description": "Diagnóstico en cuatro dimensiones, plan de preservación y propuesta razonada de condición de preservación.",
       "license": {
         "@id": "https://creativecommons.org/licenses/by/4.0/"
       },
-      "contentSize": "10618"
+      "contentSize": "10693"
     },
     {
       "@id": "diagnostico/informe-validacion.md",

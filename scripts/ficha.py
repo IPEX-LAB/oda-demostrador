@@ -276,7 +276,7 @@ def main():
   <section aria-labelledby="s-val">
     <div class="head">
       <span class="label">Propuesta del equipo, revisable</span>
-      <h2 id="s-val">Condición aurática</h2>
+      <h2 id="s-val">Condición de preservación</h2>
     </div>
     <div class="scale" aria-label="Posición propuesta: intermedia, entre débil y fuerte">
       <div class="bar"><span class="band"></span></div>

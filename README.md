@@ -17,7 +17,7 @@ Repositorio: <https://github.com/IPEX-LAB/oda-demostrador>. Lo prepara el grupo 
 Dentro del expediente:
 
 - `expediente-oda.jsonld`: 44 registros que cubren los elementos del perfil y 13 afirmaciones relacionales, cada una con su estatuto (documentada por el autor, observable o interpretativa);
-- `diagnostico/`: diagnóstico de preservación en cuatro dimensiones, valoración razonada de la condición aurática e informe de validación;
+- `diagnostico/`: diagnóstico de preservación en cuatro dimensiones, valoración razonada de la condición de preservación e informe de validación;
 - `relaciones/grafo.svg`: las afirmaciones dibujadas por estatuto;
 - `edm/edm.xml`: exportación al modelo de datos de Europeana, preparada para Hispana;
 - `preservacion/manifiesto-sha256.txt`: sumas de verificación de todos los ficheros, también de los restringidos;
@@ -25,7 +25,7 @@ Dentro del expediente:
 
 ## El criterio: un continuum, no un sí o no
 
-El libro plantea que el aura de un objeto digital no es binaria. La condición aurática es más fuerte o más débil según los metadatos que la obra satisface y según una valoración experta. Por eso:
+La condición de preservación de una obra no es binaria: siguiendo el planteamiento del libro, es más fuerte o más débil según los metadatos que la obra satisface y según una valoración experta. Por eso:
 
 - un elemento obligatorio tiene que estar **tratado**: cubierto, o declarado como laguna con su motivo;
 - un elemento opcional ausente genera un **aviso**, no un error;
@@ -35,7 +35,7 @@ El libro plantea que el aura de un objeto digital no es binaria. La condición a
 
 - **Validación SHACL sin errores.** De los 25 elementos obligatorios, 24 están cubiertos y 1 declarado como laguna (el idioma, no aplicable). De los 15 opcionales constan 11.
 - **RO-Crate 1.2 válido** en el nivel obligatorio, según rocrate-validator 0.13.1.
-- **Condición aurática propuesta: intermedia, con potencial para reforzarse.** Ver [`diagnostico.md`](expedientes/hibridaciones-algoritmicas/diagnostico/diagnostico.md).
+- **Condición de preservación propuesta: intermedia, con potencial para reforzarse.** Ver [`diagnostico.md`](expedientes/hibridaciones-algoritmicas/diagnostico/diagnostico.md).
 
 ## Cómo regenerarlo
 

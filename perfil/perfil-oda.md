@@ -4,10 +4,10 @@ Este perfil traduce a datos el esquema de metadatos del libro *Objeto Digital Au
 
 ## El continuum
 
-El libro plantea que el aura de un objeto digital no es un atributo binario. La condición aurática es más fuerte o más débil según los metadatos que satisfaga y según una valoración experta y colegiada (cap. 3–5). El perfil lo recoge así:
+A partir del planteamiento del libro (cap. 3–5), el perfil entiende la condición de preservación de una obra como un continuum y no como un atributo binario. Es más fuerte o más débil según los metadatos que satisfaga y según una valoración experta y colegiada. El perfil lo recoge así:
 
 - **Un elemento obligatorio tiene que estar tratado, no necesariamente presente.** Se considera tratado si está cubierto o si está declarado como laguna con su motivo.
-- **Un elemento opcional que falta genera un aviso**, no un error. Ese aviso se tiene en cuenta al valorar la condición aurática.
+- **Un elemento opcional que falta genera un aviso**, no un error. Ese aviso se tiene en cuenta al valorar la condición de preservación.
 - **El expediente no declara que una obra "es" un ODA.** En el libro, un ODA es el identificador que asigna Fund_ODA tras un proceso colegiado. El expediente reúne la documentación y propone una valoración razonada y revisable.
 
 ## Estado de cada dato

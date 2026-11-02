@@ -30,8 +30,8 @@ FICHEROS = {
                               "Miniatura de la representación."),
     "relaciones/grafo.svg": ("Grafo de relaciones", "image/svg+xml", CC0,
                              "Afirmaciones del expediente dibujadas por estatuto: documentadas por el autor, observables e interpretativas."),
-    "diagnostico/diagnostico.md": ("Diagnóstico de preservación y valoración aurática", "text/markdown", CCBY,
-                                   "Diagnóstico en cuatro dimensiones, plan de preservación y propuesta razonada de condición aurática."),
+    "diagnostico/diagnostico.md": ("Diagnóstico y condición de preservación", "text/markdown", CCBY,
+                                   "Diagnóstico en cuatro dimensiones, plan de preservación y propuesta razonada de condición de preservación."),
     "diagnostico/informe-validacion.md": ("Informe de validación SHACL", "text/markdown", CC0,
                                           "Cobertura de los elementos obligatorios y opcionales del perfil."),
     "edm/edm.xml": ("Exportación EDM", "application/rdf+xml", CC0,
@@ -63,7 +63,7 @@ def main():
          "description": ("Demostrador del método ODA (Objeto Digital Aurático) aplicado a la obra Hibridaciones algorítmicas "
                          "de Juan Alonso López Iniesta y a su obra resultante «5 VAR-1 GPT7». Reúne el expediente de metadatos, "
                          "las relaciones con su estatuto epistemológico, el diagnóstico de preservación y una valoración razonada "
-                         "de la condición aurática. No es una evaluación de Fund_ODA."),
+                         "de la condición de preservación. No es una evaluación de Fund_ODA."),
          "datePublished": HOY,
          "identifier": "https://doi.org/10.5281/zenodo.23883743",
          "isBasedOn": {"@id": "https://doi.org/10.5281/zenodo.23883605"},
