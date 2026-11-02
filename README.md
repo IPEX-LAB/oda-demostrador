@@ -60,13 +60,6 @@ python3 scripts/checksums.py expedientes/hibridaciones-algoritmicas ruta/a/fiche
 | Representaciones de la obra en baja resolución | CC BY-NC-ND 4.0 | Abierto |
 | Fotografía maestra y código de la obra | Todos los derechos reservados | Zenodo, acceso restringido bajo solicitud |
 
-## Pendiente antes del depósito
-
-- [ ] Revisión de los autores: afirmaciones interpretativas, síntesis de la intención y preguntas del diagnóstico.
-- [ ] Autoría de la fotografía.
-- [ ] Revisión de la columna RiC-O de las correspondencias.
-- [ ] Registro del espacio de nombres `https://w3id.org/oda-lab/` en w3id.org (la redirección está preparada en [`w3id/`](w3id/)).
-- [ ] Tras el depósito, actualizar la URL de la imagen en la exportación EDM (`scripts/exportar_edm.py --url-imagen`).
 
 ## Cita
 
