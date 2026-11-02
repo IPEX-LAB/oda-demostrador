@@ -292,8 +292,8 @@ def main():
 
   <section class="two" aria-label="Preguntas y ficheros">
     <div class="head">
-      <span class="label">Para los autores</span>
-      <h2>Preguntas abiertas</h2>
+      <span class="label">Declaradas como desconocidas</span>
+      <h2>Cuestiones abiertas</h2>
       <ol class="qs">{qs}</ol>
     </div>
     <div class="head">

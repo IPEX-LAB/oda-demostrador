@@ -101,7 +101,9 @@ El libro sitúa la condición aurática en un continuum entre débil y fuerte. D
 
 **Propuesta: condición aurática intermedia, con potencial para reforzarse.** Los criterios que dependen de la obra y de su proceso (singularidad, relación con lo digital, condiciones de creación) apuntan hacia el polo fuerte. Los que dependen de su recorrido público (exhibición, recepción, impacto) carecen de datos, y mientras falten la valoración no puede ir más allá. Los pasos que más la harían avanzar son documentar la intervención, identificar la versión del código y reunir la documentación de la exposición en el COAM y cualquier texto crítico.
 
-## Preguntas para los autores
+## Cuestiones abiertas
+
+A 2 de noviembre de 2026 no tienen respuesta y quedan declaradas como desconocidas. El expediente es válido con ellas abiertas; cuando se respondan, se publicará una versión nueva.
 
 1. ¿En qué consistió la intervención del autor? ¿Es la capa roja?
 2. ¿Con qué versión del código y qué parámetros se trazó la obra? ¿Se conserva el fichero?
