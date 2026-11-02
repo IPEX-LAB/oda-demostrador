@@ -1,0 +1,55 @@
+{
+  "title": "Expediente ODA de «Hibridaciones algorítmicas» y su obra resultante «5 VAR-1 GPT7»",
+  "upload_type": "dataset",
+  "description": "<p>Expediente de metadatos, relaciones, diagnóstico de preservación y valoración razonada de la condición aurática de <em>Hibridaciones algorítmicas</em> (Juan Alonso López Iniesta) y de su obra resultante «5 VAR-1 GPT7» (técnica mixta: plotter de pluma e intervención del autor; parte física realizada por Mauro Herrero Cantos). Paquete RO-Crate 1.2 con exportación EDM. Demostrador del método ODA preparado por IPEX (URJC); no es una evaluación de Fund_ODA. Metadatos: CC0 1.0. Diagnóstico: CC BY 4.0. Representaciones de la obra: CC BY-NC-ND 4.0. Los ficheros maestros están en un registro aparte de acceso restringido.</p>",
+  "creators": [
+    {
+      "name": "Alonso López Iniesta, Juan",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0003-3630-5474"
+    },
+    {
+      "name": "Battaner Moro, Elena",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0002-5521-6445"
+    },
+    {
+      "name": "Herrero Cantos, Mauro",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0002-0449-9975"
+    }
+  ],
+  "license": "cc-by-nc-nd-4.0",
+  "language": "spa",
+  "communities": [
+    {
+      "identifier": "ipex"
+    }
+  ],
+  "access_right": "open",
+  "keywords": [
+    "Objeto Digital Aurático",
+    "arte generativo",
+    "dibujo",
+    "preservación digital",
+    "RO-Crate",
+    "Hibridaciones algorítmicas"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isDocumentedBy",
+      "identifier": "DOI-DEL-REGISTRO-DEL-METODO",
+      "resource_type": "software"
+    },
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "DOI-DEL-REGISTRO-RESTRINGIDO",
+      "resource_type": "dataset"
+    },
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/IPEX-LAB/oda-demostrador",
+      "resource_type": "software"
+    }
+  ]
+}

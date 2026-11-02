@@ -1,0 +1,12 @@
+# SHA-256 del expediente. Generado por scripts/checksums.py
+# Las rutas restringido/ se depositan en un registro de acceso restringido.
+d88a7dfc3f163d611ef2b960515611e315f2f6404e6298206265023cb8ebfb89  diagnostico/diagnostico.md
+3995fcf62e57d2aba22d22e44e881c7c9435a26afc140ed6e8f52a37bbfc440d  diagnostico/informe-validacion.md
+23fe01dd9ffcc3983da1af5c6a3d34f3e21d26e4b100be2a57fd67961b909f13  edm/edm.xml
+4d22664a575f2dfd2f33378f98307c4d740db8b28064defc977b7238971df748  expediente-oda.jsonld
+538c7cb4942736e18ea51dd103d93aa1e1a21dada40a8fdb0ad13701cc705e80  relaciones/grafo.svg
+812efb9280b94e5d86a7cfdef068155a1db1a0af22eaa68a54c3306be7026ec3  representaciones/5-VAR-1-GPT7_1200px.jpg
+82e12836e886bc18df07b16609eac72218875fc8f3273f2813eb5092645e7bcc  representaciones/5-VAR-1-GPT7_400px.jpg
+53c3250fbda82febda725f30c07b84ccd4c69bcafe6e32cdd6fd4c456deb8871  ro-crate-metadata.json
+1093c50cf47aac7d6f3a657f39ed1dfeec6cf90ee8f55da4c81f7bd631ee32a8  restringido/5-VAR-1-GPT7_maestro_3024px.png
+5dca6953c1d0735d029bb331c2a29a851562d4674e5b5a9635a61c9388fe7465  restringido/codigo-base-sistema-HV.docx

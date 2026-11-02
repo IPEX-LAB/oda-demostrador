@@ -1,0 +1,35 @@
+{
+  "title": "«5 VAR-1 GPT7»: ficheros maestros (acceso restringido)",
+  "upload_type": "dataset",
+  "description": "<p>Fotografía maestra (PNG, 3024 × 3024 px, sin metadatos incrustados) y código base del sistema de <em>Hibridaciones algorítmicas</em>. Acceso restringido: los ficheros se facilitan bajo solicitud motivada. Las sumas SHA-256 figuran en el manifiesto del expediente abierto.</p>",
+  "creators": [
+    {
+      "name": "Alonso López Iniesta, Juan",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0003-3630-5474"
+    }
+  ],
+  "language": "spa",
+  "communities": [
+    {
+      "identifier": "ipex"
+    }
+  ],
+  "access_right": "restricted",
+  "access_conditions": "Acceso bajo solicitud motivada para investigación o conservación. La solicitud la valoran los autores.",
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "DOI-DEL-EXPEDIENTE",
+      "resource_type": "dataset"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Herrero Cantos, Mauro",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0002-0449-9975",
+      "type": "Producer"
+    }
+  ]
+}

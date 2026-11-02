@@ -1,0 +1,16 @@
+# Redirecciones de https://w3id.org/oda-lab/ hacia el repositorio de IPEX.
+# Para registrarlas: copiar este fichero en la carpeta oda-lab/ de una copia de
+# https://github.com/perma-id/w3id.org y abrir una solicitud de incorporación (pull request).
+Options +FollowSymLinks
+RewriteEngine on
+
+# Perfil de aplicación y reglas
+RewriteRule ^perfil/?$ https://github.com/IPEX-LAB/oda-demostrador/blob/main/perfil/perfil-oda.md [R=302,L]
+RewriteRule ^perfil/shapes/?$ https://raw.githubusercontent.com/IPEX-LAB/oda-demostrador/main/perfil/shapes.ttl [R=302,L]
+RewriteRule ^perfil/context/?$ https://raw.githubusercontent.com/IPEX-LAB/oda-demostrador/main/perfil/context.jsonld [R=302,L]
+
+# Expedientes: ficha web
+RewriteRule ^expedientes/hibridaciones-algoritmicas/?$ https://ipex-lab.github.io/oda-demostrador/web/ [R=302,L]
+
+# Resto: el repositorio
+RewriteRule ^(.*)$ https://github.com/IPEX-LAB/oda-demostrador [R=302,L]

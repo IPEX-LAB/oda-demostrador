@@ -1,0 +1,66 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "oda": "https://w3id.org/oda-lab/perfil#",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "Expediente": "oda:Expediente",
+    "Registro": "oda:Registro",
+    "Afirmacion": "oda:Afirmacion",
+    "Obra": "schema:CreativeWork",
+    "ObraVisual": "schema:VisualArtwork",
+    "Persona": "schema:Person",
+    "Organizacion": "schema:Organization",
+
+    "nombre": "schema:name",
+    "titulo": "schema:name",
+    "parteDe": { "@id": "schema:isPartOf", "@type": "@id" },
+    "conformeA": { "@id": "dcterms:conformsTo", "@type": "@id" },
+    "fechaExpediente": { "@id": "dcterms:modified", "@type": "xsd:date" },
+    "orcid": { "@id": "schema:identifier", "@type": "@id" },
+
+    "describe": { "@id": "oda:describe", "@type": "@id", "@container": "@set" },
+    "registros": { "@id": "oda:registro", "@type": "@id", "@container": "@set" },
+    "afirmaciones": { "@id": "oda:afirmacion", "@type": "@id", "@container": "@set" },
+
+    "elemento": { "@id": "oda:elemento", "@type": "@vocab" },
+    "sobre": { "@id": "oda:sobre", "@type": "@id" },
+    "valor": { "@id": "oda:valor" },
+    "valorRef": { "@id": "oda:valorRef", "@type": "@id", "@container": "@set" },
+    "estado": { "@id": "oda:estado", "@type": "@vocab" },
+    "motivo": { "@id": "oda:motivo" },
+    "fuente": { "@id": "oda:fuente" },
+    "nota": { "@id": "oda:nota" },
+
+    "sujeto": { "@id": "oda:sujeto", "@type": "@id" },
+    "predicado": { "@id": "oda:predicado" },
+    "objeto": { "@id": "oda:objeto" },
+    "responsable": { "@id": "oda:responsable" },
+    "evidencia": { "@id": "oda:evidencia", "@container": "@set" },
+    "fecha": { "@id": "oda:fecha", "@type": "xsd:date" },
+    "estatuto": { "@id": "oda:estatuto", "@type": "@vocab" },
+    "validacion": { "@id": "oda:validacion", "@type": "@vocab" },
+    "incertidumbre": { "@id": "oda:incertidumbre", "@type": "@vocab" },
+
+    "documentado": "oda:documentado",
+    "reconstruido": "oda:reconstruido",
+    "inferido": "oda:inferido",
+    "pendiente": "oda:pendiente",
+    "desconocido": "oda:desconocido",
+    "perdido": "oda:perdido",
+    "no_aplicable": "oda:no_aplicable",
+
+    "documentada_autor": "oda:documentada_autor",
+    "observable": "oda:observable",
+    "interpretativa": "oda:interpretativa",
+
+    "validada": "oda:validada",
+    "pendiente_validacion": "oda:pendiente_validacion",
+
+    "baja": "oda:baja",
+    "media": "oda:media",
+    "alta": "oda:alta"
+  }
+}

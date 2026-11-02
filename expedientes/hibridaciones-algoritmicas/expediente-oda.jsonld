@@ -1,0 +1,738 @@
+{
+  "@context": "../../perfil/context.jsonld",
+  "@graph": [
+    {
+      "@id": "#expediente",
+      "@type": "Expediente",
+      "nombre": "Expediente ODA de Hibridaciones algorítmicas",
+      "conformeA": "https://w3id.org/oda-lab/perfil",
+      "fechaExpediente": "2026-11-02",
+      "describe": [
+        "#obra",
+        "#5-var-1-gpt7"
+      ],
+      "nota": "Expediente preparado por el grupo IPEX como demostrador del método ODA. No es una evaluación de Fund_ODA ni declara que la obra sea un ODA reconocido: registra qué metadatos satisface la obra, qué lagunas tiene y propone una valoración razonada y revisable de su condición aurática.",
+      "registros": [
+        "#r1_1a",
+        "#r1_1b",
+        "#r1_2a",
+        "#r1_2b",
+        "#r1_3",
+        "#r1_4a",
+        "#r1_4b",
+        "#r1_5a",
+        "#r1_5b",
+        "#r1_6",
+        "#r1_7",
+        "#r1_8",
+        "#r1_9",
+        "#r1_10",
+        "#r2_1a",
+        "#r2_1b",
+        "#r2_2a",
+        "#r2_2b",
+        "#r2_3",
+        "#r2_4",
+        "#r2_5",
+        "#r2_6",
+        "#r2_7",
+        "#r2_8",
+        "#r2_9",
+        "#r2_10",
+        "#r3_1",
+        "#r3_2",
+        "#r3_3",
+        "#r3_4",
+        "#r3_5a",
+        "#r3_5b",
+        "#r4_1",
+        "#r4_2",
+        "#r4_3",
+        "#r4_4a",
+        "#r4_4b",
+        "#r5_1",
+        "#r5_2",
+        "#r5_4",
+        "#r5_5",
+        "#r5_8",
+        "#r5_9",
+        "#r5_10"
+      ],
+      "afirmaciones": [
+        "#a01",
+        "#a02",
+        "#a03",
+        "#a04",
+        "#a05",
+        "#a06",
+        "#a07",
+        "#a08",
+        "#a09",
+        "#a10",
+        "#a11",
+        "#a12",
+        "#a13"
+      ]
+    },
+    {
+      "@id": "#obra",
+      "@type": "Obra",
+      "titulo": "Hibridaciones algorítmicas"
+    },
+    {
+      "@id": "#5-var-1-gpt7",
+      "@type": "ObraVisual",
+      "titulo": "5 VAR-1 GPT7",
+      "parteDe": "#obra"
+    },
+    {
+      "@id": "#foto",
+      "@type": "Obra",
+      "nombre": "Fotografía de «5 VAR-1 GPT7»"
+    },
+    {
+      "@id": "#codigo-base",
+      "@type": "Obra",
+      "nombre": "Código base del sistema de silueta H+V"
+    },
+    {
+      "@id": "#cuaderno",
+      "@type": "Obra",
+      "nombre": "Cuaderno de proceso del autor (18-10-2026)"
+    },
+    {
+      "@id": "#juan-alonso",
+      "@type": "Persona",
+      "nombre": "Juan Alonso López Iniesta",
+      "orcid": "https://orcid.org/0000-0003-3630-5474"
+    },
+    {
+      "@id": "#mauro-herrero",
+      "@type": "Persona",
+      "nombre": "Mauro Herrero Cantos",
+      "orcid": "https://orcid.org/0000-0002-0449-9975"
+    },
+    {
+      "@id": "#ipex",
+      "@type": "Organizacion",
+      "nombre": "IPEX, Grupo de Investigación en Interfaces y Prototipos Experimentales (URJC)"
+    },
+    {
+      "@id": "#mohamedi",
+      "@type": "Persona",
+      "nombre": "Nasreen Mohamedi (1937–1990)"
+    },
+    {
+      "@id": "#r1_1a",
+      "@type": "Registro",
+      "elemento": "oda:e1_1_titulo",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Hibridaciones algorítmicas",
+      "fuente": "Información del equipo IPEX, 02-11-2026 (título definitivo)"
+    },
+    {
+      "@id": "#r1_1b",
+      "@type": "Registro",
+      "elemento": "oda:e1_1_titulo",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valor": "5 VAR-1 GPT7",
+      "fuente": "Información del equipo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r1_2a",
+      "@type": "Registro",
+      "elemento": "oda:e1_2_creador",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valorRef": [
+        "#juan-alonso"
+      ],
+      "valor": "Juan Alonso López Iniesta",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026"
+    },
+    {
+      "@id": "#r1_2b",
+      "@type": "Registro",
+      "elemento": "oda:e1_2_creador",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valorRef": [
+        "#juan-alonso"
+      ],
+      "valor": "Juan Alonso López Iniesta",
+      "fuente": "Información del equipo IPEX, 02-11-2026",
+      "nota": "Mauro Herrero Cantos se encargó de la parte física de la obra y por eso figura en la propuesta para el COAM; la autoría artística es de Juan Alonso López Iniesta."
+    },
+    {
+      "@id": "#r1_3",
+      "@type": "Registro",
+      "elemento": "oda:e1_3_asunto",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Perspectiva cónica; ritmo; serialidad; ruptura; acumulación",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026"
+    },
+    {
+      "@id": "#r1_4a",
+      "@type": "Registro",
+      "elemento": "oda:e1_4_descripcion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Serie de investigación artística en dibujo generativo. Un sistema escrito en código construye volúmenes por acumulación de planos horizontales en perspectiva cónica con dos puntos de fuga y los somete a principios tomados de la obra de Nasreen Mohamedi: el ritmo regular, la ruptura o silencio y la acumulación. El sistema ha pasado por varios estados: vértice agudo, arco tangente en el vértice, curva amplia en el lado derecho y silueta con dos sistemas de relleno.",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026",
+      "nota": "Síntesis del equipo; pendiente de validación del autor."
+    },
+    {
+      "@id": "#r1_4b",
+      "@type": "Registro",
+      "elemento": "oda:e1_4_descripcion",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valor": "Dibujo en técnica mixta. Un volumen de líneas oscuras de contorno curvo queda interrumpido por una franja horizontal sin trazos, bajo la cual continúa un segundo volumen. Una serie de líneas rojas de trazo irregular se superpone, desplazada, a la mitad inferior del volumen superior.",
+      "fuente": "Fotografía de la obra (capturada el 07-10-2026)",
+      "nota": "Descripción observable redactada por el equipo."
+    },
+    {
+      "@id": "#r1_5a",
+      "@type": "Registro",
+      "elemento": "oda:e1_5_fecha",
+      "sobre": "#obra",
+      "estado": "desconocido",
+      "motivo": "No consta la fecha de inicio de la serie. El cuaderno de proceso (18-10-2026) es posterior a la obra resultante, expuesta en 2025."
+    },
+    {
+      "@id": "#r1_5b",
+      "@type": "Registro",
+      "elemento": "oda:e1_5_fecha",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "inferido",
+      "valor": "2025 o anterior",
+      "fuente": "Exposición en el COAM en 2025 (información del equipo IPEX)",
+      "nota": "Fecha deducida de la exposición; la fecha de ejecución no consta."
+    },
+    {
+      "@id": "#r1_6",
+      "@type": "Registro",
+      "elemento": "oda:e1_6_formato",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "inferido",
+      "valor": "Dibujo sobre papel",
+      "fuente": "Fotografía de la obra (capturada el 07-10-2026)",
+      "nota": "El soporte se aprecia en la fotografía; no constan tipo de papel, gramaje ni dimensiones."
+    },
+    {
+      "@id": "#r1_7",
+      "@type": "Registro",
+      "elemento": "oda:e1_7_identificador",
+      "sobre": "#obra",
+      "estado": "pendiente",
+      "motivo": "Se asignará un DOI de Zenodo al depositar el expediente. Será un identificador de depósito, no un identificador ODA otorgado por Fund_ODA."
+    },
+    {
+      "@id": "#r1_8",
+      "@type": "Registro",
+      "elemento": "oda:e1_8_fuente",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valorRef": [
+        "#mohamedi"
+      ],
+      "valor": "Principios operativos de la obra de Nasreen Mohamedi: ritmo, serialidad, ruptura y tensión entre orden y anomalía",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026"
+    },
+    {
+      "@id": "#r1_9",
+      "@type": "Registro",
+      "elemento": "oda:e1_9_idioma",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "no_aplicable",
+      "motivo": "Obra visual sin contenido textual. La documentación del expediente está en español."
+    },
+    {
+      "@id": "#r1_10",
+      "@type": "Registro",
+      "elemento": "oda:e1_10_relacion",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valorRef": [
+        "#obra"
+      ],
+      "valor": "Obra resultante de Hibridaciones algorítmicas",
+      "fuente": "Información del equipo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r2_1a",
+      "@type": "Registro",
+      "elemento": "oda:e2_1_formato_archivo",
+      "sobre": "#foto",
+      "estado": "documentado",
+      "valor": "PNG (máster); JPEG (representaciones)",
+      "fuente": "Análisis de los ficheros, 02-11-2026"
+    },
+    {
+      "@id": "#r2_1b",
+      "@type": "Registro",
+      "elemento": "oda:e2_1_formato_archivo",
+      "sobre": "#codigo-base",
+      "estado": "documentado",
+      "valor": "DOCX: código Python copiado en un documento de Word",
+      "fuente": "Análisis de los ficheros, 02-11-2026",
+      "nota": "Formato inadecuado para código: se ha perdido la sangría, que en Python forma parte de la sintaxis."
+    },
+    {
+      "@id": "#r2_2a",
+      "@type": "Registro",
+      "elemento": "oda:e2_2_resolucion",
+      "sobre": "#foto",
+      "estado": "documentado",
+      "valor": "3024 × 3024 px (máster); 1200 × 1200 px y 400 × 400 px (representaciones)",
+      "fuente": "Análisis de los ficheros, 02-11-2026"
+    },
+    {
+      "@id": "#r2_2b",
+      "@type": "Registro",
+      "elemento": "oda:e2_2_resolucion",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "no_aplicable",
+      "motivo": "La obra es un dibujo sobre papel; la resolución en píxeles solo se aplica a sus representaciones. Sus dimensiones físicas no constan."
+    },
+    {
+      "@id": "#r2_3",
+      "@type": "Registro",
+      "elemento": "oda:e2_3_compresion",
+      "sobre": "#foto",
+      "estado": "documentado",
+      "valor": "PNG sin pérdida (máster); JPEG con calidad 85 (representaciones)",
+      "fuente": "Análisis de los ficheros, 02-11-2026"
+    },
+    {
+      "@id": "#r2_4",
+      "@type": "Registro",
+      "elemento": "oda:e2_4_profundidad_bits",
+      "sobre": "#foto",
+      "estado": "documentado",
+      "valor": "RGB, 8 bits por canal",
+      "fuente": "Análisis de los ficheros, 02-11-2026"
+    },
+    {
+      "@id": "#r2_5",
+      "@type": "Registro",
+      "elemento": "oda:e2_5_metadatos_incrustados",
+      "sobre": "#foto",
+      "estado": "documentado",
+      "valor": "La fotografía recibida contenía metadatos XMP y EXIF: fecha de captura (07-10-2026), dispositivo (iPhone 11 Pro Max), edición en Adobe Photoshop (13-10-2026) y coordenadas GPS. Se han eliminado todos los metadatos incrustados de las copias depositadas. El expediente registra la fecha y el dispositivo, pero no la ubicación.",
+      "fuente": "Análisis de los ficheros, 02-11-2026"
+    },
+    {
+      "@id": "#r2_6",
+      "@type": "Registro",
+      "elemento": "oda:e2_6_suma_comprobacion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "SHA-256 de todos los ficheros en preservacion/manifiesto-sha256.txt",
+      "fuente": "Cálculo con scripts/checksums.py, 02-11-2026"
+    },
+    {
+      "@id": "#r2_7",
+      "@type": "Registro",
+      "elemento": "oda:e2_7_tamano",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Tamaño de cada fichero en ro-crate-metadata.json (contentSize) y en el manifiesto",
+      "fuente": "Cálculo con scripts/construir_crate.py, 02-11-2026"
+    },
+    {
+      "@id": "#r2_8",
+      "@type": "Registro",
+      "elemento": "oda:e2_8_reproducibilidad_versiones",
+      "sobre": "#obra",
+      "estado": "reconstruido",
+      "valor": "El cuaderno describe cuatro estados del sistema: vértice agudo; arco tangente en el vértice; curva amplia en el lado derecho (en curso según el cuaderno); y silueta con dos sistemas de relleno, horizontal (H) y vertical (V). El código conservado corresponde al sistema de silueta H+V. No se ha identificado la versión que produjo «5 VAR-1 GPT7». El cálculo es determinista: con el código y los parámetros correctos, el trazado del plotter es repetible; la intervención del autor no lo es.",
+      "fuente": "Cuaderno de proceso del autor (18-10-2026) y análisis del código base"
+    },
+    {
+      "@id": "#r2_9",
+      "@type": "Registro",
+      "elemento": "oda:e2_9_dependencias",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Cálculo: Python 3 con la biblioteca estándar (módulo math). Trazado: biblioteca de control del plotter y plotter de pluma. No constan el modelo de plotter, la pluma, la tinta, el papel ni la versión de Python.",
+      "fuente": "Análisis del código base, 02-11-2026"
+    },
+    {
+      "@id": "#r2_10",
+      "@type": "Registro",
+      "elemento": "oda:e2_10_relaciones_componentes",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Trece afirmaciones relacionales con responsable, evidencia y estatuto (en este expediente y en relaciones/grafo.svg)",
+      "fuente": "Expediente ODA, 02-11-2026"
+    },
+    {
+      "@id": "#r3_1",
+      "@type": "Registro",
+      "elemento": "oda:e3_1_plan_preservacion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Plan por dimensiones (informacional, estructural, funcional y experiencial) en diagnostico/diagnostico.md",
+      "fuente": "Diagnóstico del grupo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r3_2",
+      "@type": "Registro",
+      "elemento": "oda:e3_2_vias_migracion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Código: recuperar los ficheros .py originales, conservarlos en texto UTF-8 bajo control de versiones y guardar el SVG de cada trazado. Imagen: PNG sin pérdida como máster; JPEG solo como representación.",
+      "fuente": "Diagnóstico del grupo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r3_3",
+      "@type": "Registro",
+      "elemento": "oda:e3_3_hash",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "SHA-256; verificación con scripts/checksums.py --verificar",
+      "fuente": "Cálculo con scripts/checksums.py, 02-11-2026"
+    },
+    {
+      "@id": "#r3_4",
+      "@type": "Registro",
+      "elemento": "oda:e3_4_estructura_compleja",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Paquete RO-Crate 1.2 (ro-crate-metadata.json) con entidades, ficheros, eventos y relaciones",
+      "fuente": "Expediente ODA, 02-11-2026"
+    },
+    {
+      "@id": "#r3_5a",
+      "@type": "Registro",
+      "elemento": "oda:e3_5_almacenamiento",
+      "sobre": "#obra",
+      "estado": "pendiente",
+      "motivo": "Depósito previsto en Zenodo, comunidad IPEX: un registro abierto con el expediente y otro de acceso restringido con los ficheros maestros."
+    },
+    {
+      "@id": "#r3_5b",
+      "@type": "Registro",
+      "elemento": "oda:e3_5_almacenamiento",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "desconocido",
+      "motivo": "No consta dónde se conserva el original de «5 VAR-1 GPT7»."
+    },
+    {
+      "@id": "#r4_1",
+      "@type": "Registro",
+      "elemento": "oda:e4_1_estado_derechos",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valor": "Obra protegida por derechos de autor (In Copyright)",
+      "fuente": "Decisión del equipo IPEX sobre licencias, 18-10-2026"
+    },
+    {
+      "@id": "#r4_2",
+      "@type": "Registro",
+      "elemento": "oda:e4_2_licencia",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Metadatos: CC0 1.0. Perfil, correspondencias y diagnóstico: CC BY 4.0. Scripts: MIT. Representaciones de la obra: CC BY-NC-ND 4.0. Ficheros maestros: todos los derechos reservados.",
+      "fuente": "Decisión del equipo IPEX sobre licencias, 18-10-2026"
+    },
+    {
+      "@id": "#r4_3",
+      "@type": "Registro",
+      "elemento": "oda:e4_3_permisos",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Ficheros maestros (fotografía en alta resolución y código) en acceso restringido, bajo solicitud",
+      "fuente": "Decisión del equipo IPEX sobre licencias, 18-10-2026"
+    },
+    {
+      "@id": "#r4_4a",
+      "@type": "Registro",
+      "elemento": "oda:e4_4_propiedad_atribucion",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valorRef": [
+        "#juan-alonso",
+        "#mauro-herrero"
+      ],
+      "valor": "Autor: Juan Alonso López Iniesta. Realización de la parte física: Mauro Herrero Cantos.",
+      "fuente": "Información del equipo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r4_4b",
+      "@type": "Registro",
+      "elemento": "oda:e4_4_propiedad_atribucion",
+      "sobre": "#foto",
+      "estado": "desconocido",
+      "motivo": "No consta la autoría de la fotografía, necesaria para su crédito y su licencia."
+    },
+    {
+      "@id": "#r5_1",
+      "@type": "Registro",
+      "elemento": "oda:e5_1_intencion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "Trasladar al propio sistema de perspectiva cónica los principios operativos de la obra de Nasreen Mohamedi (ritmo, serialidad, ruptura y tensión entre orden y anomalía) sin imitar su estilo visual. La hibridación se entiende como interferencia de dos lógicas coherentes, ninguna subordinada a la otra, de la que surge un lenguaje nuevo.",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026",
+      "nota": "Síntesis del equipo; pendiente de validación del autor."
+    },
+    {
+      "@id": "#r5_2",
+      "@type": "Registro",
+      "elemento": "oda:e5_2_influencias",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valorRef": [
+        "#mohamedi"
+      ],
+      "valor": "Nasreen Mohamedi (1937–1990)",
+      "fuente": "Cuaderno de proceso del autor, 18-10-2026"
+    },
+    {
+      "@id": "#r5_4",
+      "@type": "Registro",
+      "elemento": "oda:e5_4_tecnicas",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valor": "Técnica mixta: plotter de pluma e intervención del autor",
+      "fuente": "Información del equipo IPEX, 02-11-2026"
+    },
+    {
+      "@id": "#r5_5",
+      "@type": "Registro",
+      "elemento": "oda:e5_5_exposiciones",
+      "sobre": "#5-var-1-gpt7",
+      "estado": "documentado",
+      "valor": "Colegio Oficial de Arquitectos de Madrid (COAM), 2025",
+      "fuente": "Información del equipo IPEX, octubre de 2026",
+      "nota": "No constan el título de la exposición, las fechas ni el catálogo."
+    },
+    {
+      "@id": "#r5_8",
+      "@type": "Registro",
+      "elemento": "oda:e5_8_innovacion",
+      "sobre": "#obra",
+      "estado": "documentado",
+      "valor": "La hibridación como interferencia de lógicas y no como imitación: la perspectiva cónica aporta el espacio y la dirección de las líneas; los principios de Mohamedi, el intervalo, el silencio y el ritmo. En «5 VAR-1 GPT7» se suma la técnica mixta, que combina el trazado del plotter con la intervención del autor sobre la hoja.",
+      "fuente": "Cuaderno de proceso del autor (18-10-2026) e información del equipo IPEX (02-11-2026)"
+    },
+    {
+      "@id": "#r5_9",
+      "@type": "Registro",
+      "elemento": "oda:e5_9_generos_metodos",
+      "sobre": "#obra",
+      "estado": "inferido",
+      "valor": "Generative art / arte generativo; Computer art (taxonomía AEMA)",
+      "fuente": "Libro ODA, cap. 4 (taxonomía AEMA)",
+      "nota": "Asignación del equipo; pendiente de validación del autor."
+    },
+    {
+      "@id": "#r5_10",
+      "@type": "Registro",
+      "elemento": "oda:e5_10_temas",
+      "sobre": "#obra",
+      "estado": "inferido",
+      "valor": "Algorithm; Code; Perspective; Materiality; Hand (taxonomía EMAP)",
+      "fuente": "Libro ODA, cap. 4 (taxonomía EMAP)",
+      "nota": "Asignación del equipo; pendiente de validación del autor."
+    },
+    {
+      "@id": "#a01",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "es la obra resultante de",
+      "objeto": "Hibridaciones algorítmicas",
+      "responsable": "Equipo IPEX, por indicación de los autores",
+      "evidencia": [
+        "Información del equipo IPEX, 02-11-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a02",
+      "@type": "Afirmacion",
+      "sujeto": "#obra",
+      "predicado": "toma como referente los principios operativos de",
+      "objeto": "Nasreen Mohamedi",
+      "responsable": "Juan Alonso López Iniesta (autor)",
+      "evidencia": [
+        "Cuaderno de proceso del autor, 18-10-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a03",
+      "@type": "Afirmacion",
+      "sujeto": "#obra",
+      "predicado": "se construye sobre",
+      "objeto": "un sistema de perspectiva cónica oblicua con dos puntos de fuga (30° y 60°)",
+      "responsable": "Juan Alonso López Iniesta (autor)",
+      "evidencia": [
+        "Cuaderno de proceso del autor, 18-10-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a04",
+      "@type": "Afirmacion",
+      "sujeto": "#obra",
+      "predicado": "traduce el silencio de Mohamedi en",
+      "objeto": "una zona sin planos (ruptura) definida por parámetros del código",
+      "responsable": "Juan Alonso López Iniesta (autor)",
+      "evidencia": [
+        "Cuaderno de proceso del autor, 18-10-2026",
+        "Código base del sistema H+V (parámetros de ruptura)"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a05",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "presenta",
+      "objeto": "una franja horizontal sin trazos que separa dos volúmenes de líneas",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Fotografía de la obra (07-10-2026)"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "observable",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a06",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "presenta",
+      "objeto": "una segunda serie de líneas rojas de trazo irregular, superpuesta y desplazada respecto a la serie oscura",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Fotografía de la obra (07-10-2026)"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "observable",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a07",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "corresponde en su capa roja a",
+      "objeto": "la intervención del autor indicada en la técnica",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Fotografía de la obra (07-10-2026)",
+        "Técnica declarada: plotter de pluma e intervención del autor"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "interpretativa",
+      "validacion": "pendiente_validacion",
+      "incertidumbre": "alta",
+      "nota": "Hipótesis basada en la diferencia de trazo. El autor debe confirmar en qué consistió la intervención."
+    },
+    {
+      "@id": "#a08",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "fue generada con",
+      "objeto": "un estado del sistema con curva amplia en el lado derecho",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Fotografía de la obra (07-10-2026)",
+        "Cuaderno de proceso del autor, 18-10-2026 (variación de la curva derecha)"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "interpretativa",
+      "validacion": "pendiente_validacion",
+      "incertidumbre": "media",
+      "nota": "Las líneas del volumen superior se curvan hacia la derecha, como describe esa variación del cuaderno."
+    },
+    {
+      "@id": "#a09",
+      "@type": "Afirmacion",
+      "sujeto": "#codigo-base",
+      "predicado": "no es la versión que produjo",
+      "objeto": "5 VAR-1 GPT7",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Análisis del código base (no contiene la curva derecha)",
+        "Fotografía de la obra (no se aprecian líneas verticales del sistema V)"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "interpretativa",
+      "validacion": "pendiente_validacion",
+      "incertidumbre": "media"
+    },
+    {
+      "@id": "#a10",
+      "@type": "Afirmacion",
+      "sujeto": "#5-var-1-gpt7",
+      "predicado": "se expuso en",
+      "objeto": "Colegio Oficial de Arquitectos de Madrid (COAM), 2025",
+      "responsable": "Equipo IPEX, por indicación de los autores",
+      "evidencia": [
+        "Información del equipo IPEX, octubre de 2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion",
+      "nota": "La propuesta presentada al COAM incluía a Juan Alonso López Iniesta y a Mauro Herrero Cantos."
+    },
+    {
+      "@id": "#a11",
+      "@type": "Afirmacion",
+      "sujeto": "#foto",
+      "predicado": "es una representación de",
+      "objeto": "5 VAR-1 GPT7",
+      "responsable": "Equipo IPEX",
+      "evidencia": [
+        "Metadatos de captura: 07-10-2026, iPhone 11 Pro Max; recorte cuadrado en Adobe Photoshop, 13-10-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "observable",
+      "validacion": "pendiente_validacion"
+    },
+    {
+      "@id": "#a12",
+      "@type": "Afirmacion",
+      "sujeto": "#cuaderno",
+      "predicado": "documenta el proceso de",
+      "objeto": "Hibridaciones algorítmicas",
+      "responsable": "Juan Alonso López Iniesta (autor)",
+      "evidencia": [
+        "Cuaderno de proceso del autor, 18-10-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion",
+      "nota": "El cuaderno lo conserva el autor y no se deposita en esta versión."
+    },
+    {
+      "@id": "#a13",
+      "@type": "Afirmacion",
+      "sujeto": "#mauro-herrero",
+      "predicado": "se encargó de la parte física de",
+      "objeto": "5 VAR-1 GPT7",
+      "responsable": "Equipo IPEX, por indicación de los autores",
+      "evidencia": [
+        "Información del equipo IPEX, 02-11-2026"
+      ],
+      "fecha": "2026-11-02",
+      "estatuto": "documentada_autor",
+      "validacion": "pendiente_validacion",
+      "nota": "No es coautor de la obra artística. Conviene precisar qué abarcó la parte física (trazado, soporte, montaje)."
+    }
+  ]
+}

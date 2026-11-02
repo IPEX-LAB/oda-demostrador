@@ -1,0 +1,43 @@
+id,elemento_oda,obligatoriedad,dublin_core,edm,linked_art_cidoc_crm,premis_3,ric_o,schema_org_ro_crate,cobertura_estandares,aportacion_oda
+1.1,Título,C,dc:title,dc:title (edm:ProvidedCHO),identified_by → Name (crm:P1_is_identified_by),—,rico:title,schema:name,completa,—
+1.2,Creador,C,dc:creator,dc:creator,produced_by → carried_out_by (crm:P108i → E12_Production → P14_carried_out_by),linkingAgentIdentifier (evento de creación),rico:hasCreator,schema:creator,completa,—
+1.3,Asunto,O,dc:subject,dc:subject,about (crm:P129_is_about),—,rico:hasOrHadSubject,schema:keywords,completa,—
+1.4,Descripción,C,dc:description,dc:description,referred_to_by → LinguisticObject (crm:P67i_is_referred_to_by),—,rico:scopeAndContent,schema:description,completa,—
+1.5,Fecha,C,dcterms:created,dcterms:created,produced_by → timespan (crm:P4_has_time-span),eventDateTime (evento de creación),rico:hasCreationDate,schema:dateCreated,completa,Admite fecha desconocida con motivo declarado
+1.6,Formato,C,dc:format,dc:format / dcterms:medium,made_of (crm:P45_consists_of),formatDesignation,revisar,schema:encodingFormat / schema:artMedium,parcial,Reúne soporte físico y formato digital en obras híbridas
+1.7,Identificador,C,dc:identifier,dc:identifier,identified_by → Identifier (crm:P1 / E42_Identifier),objectIdentifier,rico:identifier,schema:identifier,completa,En el libro lo otorga Fund_ODA; en el demostrador es un DOI de depósito
+1.8,Fuente,O,dc:source,dc:source,influenced_by (crm:P15_was_influenced_by),—,revisar,schema:isBasedOn,parcial,Recoge la inspiración y no solo el origen documental
+1.9,Idioma,C,dc:language,dc:language (obligatorio si edm:type = TEXT),language (crm:P72_has_language),—,revisar,schema:inLanguage,completa,—
+1.10,Relación,O,dc:relation,edm:isRelatedTo / dcterms:isPartOf,member_of / crm:P130_shows_features_of,relationship (relationshipType),revisar,schema:isPartOf / schema:hasPart,completa,Cada relación lleva estatuto epistemológico
+1.11,Cobertura,O,dc:coverage,dcterms:spatial / dcterms:temporal,—,—,—,schema:spatialCoverage / schema:temporalCoverage,completa,—
+2.1,Formato de archivo,C,dc:format,ebucore:hasMimeType (edm:WebResource),—,formatName / formatRegistryKey (PRONOM),—,schema:encodingFormat,completa,—
+2.2,Resolución,C,—,ebucore:width / ebucore:height (edm:WebResource),dimension (crm:P43_has_dimension),objectCharacteristicsExtension,—,schema:width / schema:height,parcial,Puede declararse no aplicable a la obra física
+2.3,Compresión,O,—,—,—,objectCharacteristicsExtension,—,—,ninguna en el núcleo,—
+2.4,Profundidad de bits,O,—,—,—,objectCharacteristicsExtension,—,—,parcial (vía extensión),—
+2.5,Metadatos incrustados,O,—,—,—,objectCharacteristicsExtension,—,—,parcial (vía extensión),Detecta datos personales incrustados (p. ej. GPS)
+2.6,Suma de comprobación,C,—,—,—,fixity (messageDigestAlgorithm / messageDigest),—,manifiesto aparte,completa (PREMIS),—
+2.7,Tamaño del fichero,C,dcterms:extent,dcterms:extent,—,size,—,schema:contentSize,completa,—
+2.8,Reproducibilidad y control de versiones,C,dcterms:hasVersion / dcterms:isVersionOf,—,CRMdig D10_Software_Execution / D7_Digital_Machine_Event,relationship (derivation) + event,—,schema:version / schema:isBasedOn,parcial,Historial de versiones del sistema y cómo se obtiene la obra
+2.9,Dependencias técnicas,O,dcterms:requires,—,CRMdig D14_Software,environment (entidad con relación de dependencia),—,schema:softwareRequirements,parcial,Incluye la materialidad del trazo (plotter / pluma / papel)
+2.10,Relaciones detalladas entre componentes,C,dcterms:hasPart / dcterms:isPartOf,dcterms:hasPart,crm:P46_is_composed_of,relationship (structural),revisar,schema:hasPart,parcial,Relación con responsable / evidencia y estatuto
+3.1,Plan de preservación a largo plazo,C,—,—,—,preservationLevel (value / rationale),—,—,parcial,Plan por dimensiones (informacional / estructural / funcional / experiencial)
+3.2,Vías de migración,C,—,—,—,event (migration) + relationship (derivation),—,—,parcial,—
+3.3,Suma de comprobación y valores hash,C,—,—,—,fixity,—,manifiesto aparte,completa (PREMIS),—
+3.4,Estructura compleja de objetos,O,dcterms:hasPart,dcterms:hasPart,crm:P46_is_composed_of,relationship (structural) / compositionLevel,revisar,schema:hasPart (RO-Crate),completa,—
+3.5,Lugar de almacenamiento,C,—,edm:isShownAt / edm:isShownBy (acceso),current_location (crm:P55_has_current_location),storage (contentLocation / storageMedium),—,—,parcial,Distingue obra física y ficheros
+4.1,Estado de los derechos,C,dc:rights,edm:rights (URI rightsstatements.org o CC; obligatorio),subject_to → Right (crm:P104 / E30_Right),rightsStatement (rightsBasis),revisar,schema:copyrightNotice,completa,—
+4.2,Términos de la licencia,C,dcterms:license,edm:rights,subject_to → Right (E30_Right),rightsStatement (licenseInformation),rico:conditionsOfUse,schema:license,completa,—
+4.3,Permisos y restricciones,C,dcterms:accessRights,edm:rights / dc:rights,subject_to → Right (E30_Right),rightsGranted (act / restriction),rico:conditionsOfAccess,schema:conditionsOfAccess,completa,—
+4.4,Propiedad y atribución,C,dcterms:rightsHolder,dc:rights,current_owner (crm:P52_has_current_owner),rightsStatement (copyrightInformation),revisar,schema:copyrightHolder / schema:creditText,completa,—
+5.1,Intención artística,C,—,—,referred_to_by → LinguisticObject (declaración del artista),significantProperties (parcial),—,—,ninguna estructurada,Aportación ODA
+5.2,Influencias,O,—,—,influenced_by (crm:P15_was_influenced_by),—,—,—,parcial (CRM),—
+5.3,Simbolismo,O,—,—,shows → VisualItem → represents / about,—,—,—,parcial,—
+5.4,Técnicas,C,—,dcterms:medium (parcial),technique (crm:P32_used_general_technique),creatingApplication (solo software),—,schema:artMedium / schema:artform,parcial,Técnica mixta: máquina e intervención del autor
+5.5,Historial de exposiciones,O,—,—,Activity de tipo exposición (crm:E7_Activity),—,—,schema:ExhibitionEvent,parcial,—
+5.6,Recepción crítica,O,—,—,referred_to_by (textos críticos),—,—,schema:review,parcial,—
+5.7,Contexto histórico,O,—,—,referred_to_by / classified_as,—,—,—,ninguna estructurada,—
+5.8,Innovación,C,—,—,—,—,—,—,ninguna,Aportación ODA
+5.9,Géneros/Métodos artísticos,C,dc:type,dc:type / edm:hasType,classified_as (crm:P2_has_type) con vocabularios AEMA / EMAP,—,—,schema:genre,parcial,Taxonomías AEMA y EMAP del libro
+5.10,Temas,O,dc:subject,dc:subject,about (crm:P129_is_about),—,rico:hasOrHadSubject,schema:about,completa,—
+ext.1,Estado del dato (perfil),—,—,—,—,—,—,—,ninguna,Distingue documentado / reconstruido / inferido / pendiente / desconocido / perdido / no aplicable
+ext.2,Afirmación con estatuto epistemológico (perfil),—,—,—,E13_Attribute_Assignment; CRMinf I2_Belief para hipótesis,—,—,—,parcial (CRM / CRMinf),Responsable / evidencia / estatuto / validación / incertidumbre en cada relación

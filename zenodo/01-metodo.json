@@ -1,0 +1,45 @@
+{
+  "title": "Demostrador ODA: perfil de aplicación, correspondencias y herramientas para expedientes de Objetos Digitales Auráticos",
+  "upload_type": "software",
+  "description": "<p>Perfil de aplicación del esquema de metadatos ODA (Objeto Digital Aurático), con los 40 elementos del libro <em>Objeto Digital Aurático</em> (Peter Lang, 2025) y su obligatoriedad, reglas SHACL, correspondencias con Dublin Core, EDM, Linked Art / CIDOC-CRM, PREMIS, RiC-O y schema.org, y scripts para validar, empaquetar en RO-Crate 1.2 y exportar a EDM. Incluye como ejemplo el expediente de <em>Hibridaciones algorítmicas</em>. Preparado por IPEX, Grupo de Investigación en Interfaces y Prototipos Experimentales (URJC).</p>",
+  "creators": [
+    {
+      "name": "Alonso López Iniesta, Juan",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0003-3630-5474"
+    },
+    {
+      "name": "Battaner Moro, Elena",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0002-5521-6445"
+    },
+    {
+      "name": "Herrero Cantos, Mauro",
+      "affiliation": "Universidad Rey Juan Carlos",
+      "orcid": "0000-0002-0449-9975"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "language": "spa",
+  "communities": [
+    {
+      "identifier": "ipex"
+    }
+  ],
+  "keywords": [
+    "Objeto Digital Aurático",
+    "ODA",
+    "preservación digital",
+    "metadatos",
+    "SHACL",
+    "RO-Crate",
+    "EDM",
+    "arte digital"
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/IPEX-LAB/oda-demostrador"
+    }
+  ]
+}

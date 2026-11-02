@@ -1,0 +1,41 @@
+id,categoria,elemento,obligatoriedad,definicion_libro,termino
+1.1,Descriptiva,Título,C,Nombre dado al recurso/objeto.,oda:e1_1_titulo
+1.2,Descriptiva,Creador,C,Persona u organización responsable de la creación.,oda:e1_2_creador
+1.3,Descriptiva,Asunto,O,Palabras clave o frases que describen el contenido.,oda:e1_3_asunto
+1.4,Descriptiva,Descripción,C,Breve descripción o resumen.,oda:e1_4_descripcion
+1.5,Descriptiva,Fecha,C,Fecha de creación o disponibilidad.,oda:e1_5_fecha
+1.6,Descriptiva,Formato,C,El formato de archivo o soporte físico.,oda:e1_6_formato
+1.7,Descriptiva,Identificador,C,Identificador único y persistente para el objeto (otorgado por Fund_ODA).,oda:e1_7_identificador
+1.8,Descriptiva,Fuente,O,Origen o inspiración del objeto.,oda:e1_8_fuente
+1.9,Descriptiva,Idioma,C,Idioma principal del contenido.,oda:e1_9_idioma
+1.10,Descriptiva,Relación,O,Relaciones con otros recursos.,oda:e1_10_relacion
+1.11,Descriptiva,Cobertura,O,Cobertura espacial o temporal.,oda:e1_11_cobertura
+2.1,Técnica,Formato de archivo,C,Formato específico del archivo ODA.,oda:e2_1_formato_archivo
+2.2,Técnica,Resolución,C,Dimensiones en píxeles para imágenes o vídeos.,oda:e2_2_resolucion
+2.3,Técnica,Compresión,O,Técnicas utilizadas para optimizar el tamaño de los archivos.,oda:e2_3_compresion
+2.4,Técnica,Profundidad de bits,O,Número de bits para la representación del color.,oda:e2_4_profundidad_bits
+2.5,Técnica,Metadatos incrustados,O,Presencia de metadatos incrustados como EXIF o IPTC.,oda:e2_5_metadatos_incrustados
+2.6,Técnica,Suma de comprobación,C,Valores para la verificación de la integridad de los datos.,oda:e2_6_suma_comprobacion
+2.7,Técnica,Tamaño del fichero,C,Tamaño de los ficheros de datos.,oda:e2_7_tamano
+2.8,Técnica,Metadatos de reproducibilidad y control de versiones,C,Detalles sobre cómo puede reproducirse el objeto e historiales de versiones.,oda:e2_8_reproducibilidad_versiones
+2.9,Técnica,Dependencias técnicas,O,"Información sobre los requisitos de software, hardware o entorno para acceder o visualizar el objeto digital.",oda:e2_9_dependencias
+2.10,Técnica,Relaciones detalladas entre componentes,C,"Documentación más detallada de cómo se relacionan los componentes, incluyendo diagramas de flujo de datos si procede.",oda:e2_10_relaciones_componentes
+3.1,Preservación,Plan de preservación a largo plazo,C,"Plan detallado que describe las estrategias de preservación a largo plazo, incluidas la migración, la emulación y las comprobaciones periódicas.",oda:e3_1_plan_preservacion
+3.2,Preservación,Vías de migración,C,Estrategias de transición a nuevos formatos.,oda:e3_2_vias_migracion
+3.3,Preservación,Suma de comprobación y valores hash,C,Para la comprobación de la integridad de los datos.,oda:e3_3_hash
+3.4,Preservación,Estructura compleja de objetos,O,Documentación de dependencias de archivos.,oda:e3_4_estructura_compleja
+3.5,Preservación,Lugar de almacenamiento,C,Detalles del almacenamiento físico o digital.,oda:e3_5_almacenamiento
+4.1,Derechos,Estado de los derechos,C,Estado de los derechos de autoría del ODA.,oda:e4_1_estado_derechos
+4.2,Derechos,Términos de la licencia,C,Condiciones específicas de uso.,oda:e4_2_licencia
+4.3,Derechos,Permisos y restricciones,C,Condiciones de uso.,oda:e4_3_permisos
+4.4,Derechos,Propiedad y atribución,C,Datos de los creadores y titulares de los derechos.,oda:e4_4_propiedad_atribucion
+5.1,Arte,Intención artística,C,Intención y marco conceptual del artista.,oda:e5_1_intencion
+5.2,Arte,Influencias,O,Influencias artísticas y culturales.,oda:e5_2_influencias
+5.3,Arte,Simbolismo,O,Iconografía y elementos simbólicos.,oda:e5_3_simbolismo
+5.4,Arte,Técnicas,C,Técnicas y métodos artísticos.,oda:e5_4_tecnicas
+5.5,Arte,Historial de exposiciones,O,Registro de exposiciones y muestras.,oda:e5_5_exposiciones
+5.6,Arte,Recepción crítica,O,Reseñas y análisis.,oda:e5_6_recepcion
+5.7,Arte,Contexto histórico,O,Lugar en la historia del arte y significado cultural.,oda:e5_7_contexto_historico
+5.8,Arte,Innovación,C,Aspectos novedosos y únicos de la obra.,oda:e5_8_innovacion
+5.9,Arte,Géneros/Métodos artísticos,C,Categorías y técnicas de las taxonomías.,oda:e5_9_generos_metodos
+5.10,Arte,Temas,O,Temas y materias centrales de las ontologías.,oda:e5_10_temas
