@@ -33,7 +33,7 @@ El libro plantea que el aura de un objeto digital no es binaria. La condición a
 
 ## Resultado
 
-- **Validación SHACL sin errores.** De los 25 elementos obligatorios, 22 están cubiertos y 3 declarados como laguna (identificador, idioma y lugar de conservación del original). De los 15 opcionales constan 11.
+- **Validación SHACL sin errores.** De los 25 elementos obligatorios, 24 están cubiertos y 1 declarado como laguna (el idioma, no aplicable). De los 15 opcionales constan 11.
 - **RO-Crate 1.2 válido** en el nivel obligatorio, según rocrate-validator 0.13.1.
 - **Condición aurática propuesta: intermedia, con potencial para reforzarse.** Ver [`diagnostico.md`](expedientes/hibridaciones-algoritmicas/diagnostico/diagnostico.md).
 
@@ -60,6 +60,14 @@ python3 scripts/checksums.py expedientes/hibridaciones-algoritmicas ruta/a/fiche
 | Representaciones de la obra en baja resolución | CC BY-NC-ND 4.0 | Abierto |
 | Fotografía maestra y código de la obra | Todos los derechos reservados | Zenodo, acceso restringido bajo solicitud |
 
+
+## Depósito en Zenodo (comunidad IPEX)
+
+| Registro | DOI | Acceso |
+|---|---|---|
+| Método (este repositorio) | [10.5281/zenodo.23883605](https://doi.org/10.5281/zenodo.23883605) | Abierto |
+| Expediente de Hibridaciones algorítmicas | [10.5281/zenodo.23883743](https://doi.org/10.5281/zenodo.23883743) | Abierto |
+| Ficheros maestros de «5 VAR-1 GPT7» | [10.5281/zenodo.23884055](https://doi.org/10.5281/zenodo.23884055) | Restringido |
 
 ## Cita
 

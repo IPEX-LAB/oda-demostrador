@@ -65,6 +65,8 @@ def main():
                          "las relaciones con su estatuto epistemológico, el diagnóstico de preservación y una valoración razonada "
                          "de la condición aurática. No es una evaluación de Fund_ODA."),
          "datePublished": HOY,
+         "identifier": "https://doi.org/10.5281/zenodo.23883743",
+         "isBasedOn": {"@id": "https://doi.org/10.5281/zenodo.23883605"},
          "license": {"@id": CC0},
          "conformsTo": {"@id": PERFIL},
          "about": [{"@id": "#obra"}, {"@id": "#5-var-1-gpt7"}],
@@ -100,7 +102,8 @@ def main():
         grafo.append({"@id": f"#restringido-{Path(nombre_f).stem}", "@type": "CreativeWork", "name": nombre,
                       "alternateName": nombre_f, "encodingFormat": mime, "description": desc,
                       "contentSize": str(f.stat().st_size) if f.exists() else None,
-                      "conditionsOfAccess": "Acceso restringido bajo solicitud en un registro aparte de Zenodo (comunidad IPEX). Suma SHA-256 en el manifiesto.",
+                      "conditionsOfAccess": "Acceso restringido bajo solicitud en el registro https://doi.org/10.5281/zenodo.23884055 (Zenodo, comunidad IPEX). Suma SHA-256 en el manifiesto.",
+                      "url": "https://doi.org/10.5281/zenodo.23884055",
                       "license": {"@id": INC}})
 
     grafo += [
@@ -175,6 +178,7 @@ def main():
          "instrument": [{"@id": "#pyshacl"}, {"@id": "#rocrate-validator"}], "object": {"@id": "expediente-oda.jsonld"},
          "result": {"@id": "diagnostico/informe-validacion.md"}},
 
+        {"@id": "https://doi.org/10.5281/zenodo.23883605", "@type": "CreativeWork", "name": "Demostrador ODA: perfil de aplicación, correspondencias y herramientas", "url": "https://github.com/IPEX-LAB/oda-demostrador"},
         {"@id": CC0, "@type": "CreativeWork", "name": "CC0 1.0", "description": "Dedicación al dominio público; se aplica a los metadatos."},
         {"@id": CCBY, "@type": "CreativeWork", "name": "CC BY 4.0", "description": "Atribución 4.0 Internacional; se aplica al diagnóstico."},
         {"@id": CCBYNCND, "@type": "CreativeWork", "name": "CC BY-NC-ND 4.0", "description": "Atribución-NoComercial-SinDerivadas 4.0 Internacional; se aplica a las representaciones de la obra."},

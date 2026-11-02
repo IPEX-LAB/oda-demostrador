@@ -25,7 +25,8 @@ RAIZ = Path(__file__).resolve().parent.parent
 EDM = Namespace("http://www.europeana.eu/schemas/edm/")
 ORE = Namespace("http://www.openarchives.org/ore/terms/")
 BASE = "https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#"
-MARCADOR = "https://zenodo.org/records/PENDIENTE/files/5-VAR-1-GPT7_1200px.jpg"
+MARCADOR = "https://zenodo.org/records/23883743/files/5-VAR-1-GPT7_1200px.jpg"
+PAGINA = "https://doi.org/10.5281/zenodo.23883743"
 CCBYNCND = URIRef("http://creativecommons.org/licenses/by-nc-nd/4.0/")
 
 
@@ -71,6 +72,7 @@ def main():
     g.add((agg, RDF.type, ORE.Aggregation))
     g.add((agg, EDM.aggregatedCHO, cho))
     g.add((agg, EDM.isShownBy, web))
+    g.add((agg, EDM.isShownAt, URIRef(PAGINA)))
     g.add((agg, EDM.dataProvider, Literal("IPEX, Universidad Rey Juan Carlos")))
     g.add((agg, EDM.provider, Literal("IPEX, Universidad Rey Juan Carlos")))
     g.add((agg, EDM.rights, CCBYNCND))
@@ -78,7 +80,7 @@ def main():
     destino = carpeta / "edm" / "edm.xml"
     destino.parent.mkdir(parents=True, exist_ok=True)
     g.serialize(destination=destino, format="xml")
-    aviso = " (URL de la imagen pendiente del depósito)" if url == MARCADOR else ""
+    aviso = ""
     print(f"Escrito {destino.relative_to(RAIZ)}{aviso}.")
 
 

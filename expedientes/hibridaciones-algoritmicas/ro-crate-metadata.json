@@ -17,6 +17,10 @@
       "name": "Expediente ODA de Hibridaciones algorítmicas",
       "description": "Demostrador del método ODA (Objeto Digital Aurático) aplicado a la obra Hibridaciones algorítmicas de Juan Alonso López Iniesta y a su obra resultante «5 VAR-1 GPT7». Reúne el expediente de metadatos, las relaciones con su estatuto epistemológico, el diagnóstico de preservación y una valoración razonada de la condición aurática. No es una evaluación de Fund_ODA.",
       "datePublished": "2026-11-02",
+      "identifier": "https://doi.org/10.5281/zenodo.23883743",
+      "isBasedOn": {
+        "@id": "https://doi.org/10.5281/zenodo.23883605"
+      },
       "license": {
         "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
@@ -115,7 +119,7 @@
       "name": "Expediente ODA (registros y afirmaciones)",
       "encodingFormat": "application/ld+json",
       "description": "Registros de los 40 elementos del perfil ODA y afirmaciones relacionales con estatuto epistemológico.",
-      "contentSize": "26497",
+      "contentSize": "26686",
       "conformsTo": {
         "@id": "https://w3id.org/oda-lab/perfil"
       }
@@ -167,7 +171,7 @@
       "license": {
         "@id": "https://creativecommons.org/licenses/by/4.0/"
       },
-      "contentSize": "10631"
+      "contentSize": "10618"
     },
     {
       "@id": "diagnostico/informe-validacion.md",
@@ -175,7 +179,7 @@
       "name": "Informe de validación SHACL",
       "encodingFormat": "text/markdown",
       "description": "Cobertura de los elementos obligatorios y opcionales del perfil.",
-      "contentSize": "3909"
+      "contentSize": "3897"
     },
     {
       "@id": "edm/edm.xml",
@@ -183,7 +187,7 @@
       "name": "Exportación EDM",
       "encodingFormat": "application/rdf+xml",
       "description": "Registro en el modelo de datos de Europeana, preparado para Hispana.",
-      "contentSize": "2356"
+      "contentSize": "2430"
     },
     {
       "@id": "preservacion/manifiesto-sha256.txt",
@@ -201,7 +205,8 @@
       "encodingFormat": "image/png",
       "description": "PNG sin pérdida, 3024 × 3024 px, sin metadatos incrustados.",
       "contentSize": "11615790",
-      "conditionsOfAccess": "Acceso restringido bajo solicitud en un registro aparte de Zenodo (comunidad IPEX). Suma SHA-256 en el manifiesto.",
+      "conditionsOfAccess": "Acceso restringido bajo solicitud en el registro https://doi.org/10.5281/zenodo.23884055 (Zenodo, comunidad IPEX). Suma SHA-256 en el manifiesto.",
+      "url": "https://doi.org/10.5281/zenodo.23884055",
       "license": {
         "@id": "http://rightsstatements.org/vocab/InC/1.0/"
       }
@@ -214,7 +219,8 @@
       "encodingFormat": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
       "description": "Código Python copiado en un documento de Word, sin sangría. No es la versión que produjo «5 VAR-1 GPT7».",
       "contentSize": "17555",
-      "conditionsOfAccess": "Acceso restringido bajo solicitud en un registro aparte de Zenodo (comunidad IPEX). Suma SHA-256 en el manifiesto.",
+      "conditionsOfAccess": "Acceso restringido bajo solicitud en el registro https://doi.org/10.5281/zenodo.23884055 (Zenodo, comunidad IPEX). Suma SHA-256 en el manifiesto.",
+      "url": "https://doi.org/10.5281/zenodo.23884055",
       "license": {
         "@id": "http://rightsstatements.org/vocab/InC/1.0/"
       }
@@ -488,6 +494,12 @@
       "result": {
         "@id": "diagnostico/informe-validacion.md"
       }
+    },
+    {
+      "@id": "https://doi.org/10.5281/zenodo.23883605",
+      "@type": "CreativeWork",
+      "name": "Demostrador ODA: perfil de aplicación, correspondencias y herramientas",
+      "url": "https://github.com/IPEX-LAB/oda-demostrador"
     },
     {
       "@id": "https://creativecommons.org/publicdomain/zero/1.0/",

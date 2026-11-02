@@ -227,8 +227,10 @@
       "@type": "Registro",
       "elemento": "oda:e1_7_identificador",
       "sobre": "#obra",
-      "estado": "pendiente",
-      "motivo": "Se asignará un DOI de Zenodo al depositar el expediente. Será un identificador de depósito, no un identificador ODA otorgado por Fund_ODA."
+      "estado": "documentado",
+      "valor": "10.5281/zenodo.23883743 (DOI de depósito en Zenodo; no es un identificador ODA otorgado por Fund_ODA)",
+      "fuente": "Reserva de DOI en Zenodo, 02-11-2026",
+      "nota": "DOI reservado; queda activo al publicar el registro."
     },
     {
       "@id": "#r1_8",
@@ -411,8 +413,9 @@
       "@type": "Registro",
       "elemento": "oda:e3_5_almacenamiento",
       "sobre": "#obra",
-      "estado": "pendiente",
-      "motivo": "Depósito previsto en Zenodo, comunidad IPEX: un registro abierto con el expediente y otro de acceso restringido con los ficheros maestros."
+      "estado": "documentado",
+      "valor": "Zenodo, comunidad IPEX (ipex-urjc): expediente abierto (10.5281/zenodo.23883743), ficheros maestros en acceso restringido (10.5281/zenodo.23884055) y método (10.5281/zenodo.23883605)",
+      "fuente": "Reserva de DOI en Zenodo, 02-11-2026"
     },
     {
       "@id": "#r3_5b",

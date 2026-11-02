@@ -38,12 +38,12 @@
   "related_identifiers": [
     {
       "relation": "isDocumentedBy",
-      "identifier": "DOI-DEL-REGISTRO-DEL-METODO",
+      "identifier": "10.5281/zenodo.23883605",
       "resource_type": "software"
     },
     {
       "relation": "isSupplementedBy",
-      "identifier": "DOI-DEL-REGISTRO-RESTRINGIDO",
+      "identifier": "10.5281/zenodo.23884055",
       "resource_type": "dataset"
     },
     {

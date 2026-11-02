@@ -33,7 +33,7 @@ CRITERIOS = [
     ("Singularidad", "refuerza", "Trazado repetible e intervención irrepetible: cada hoja es única."),
     ("Interacción con la tecnología digital", "refuerza", "Sistema de código propio y plotter, en diálogo con la mano."),
     ("Condiciones de creación", "refuerza", "Intención y proceso documentados por el autor."),
-    ("Documentación", "en parte", "22 de 25 obligatorios cubiertos; falta la versión del código."),
+    ("Documentación", "en parte", "24 de 25 obligatorios cubiertos; falta la versión del código."),
     ("Condiciones de exhibición", "sin datos", "Una exposición (COAM, 2025), sin más detalle."),
     ("Importancia cultural", "sin datos", "Sin recepción crítica ni contexto histórico documentados."),
     ("Impacto en los espectadores", "sin datos", "Sin registros."),
@@ -228,7 +228,7 @@ def main():
         <dt>Sistema</dt><dd>Perspectiva cónica con dos puntos de fuga (30° y 60°), escrita en código</dd>
         <dt>Exposición</dt><dd>Colegio Oficial de Arquitectos de Madrid (COAM), 2025</dd>
         <dt>Géneros</dt><dd>Generative art / arte generativo; Computer art (taxonomía AEMA)</dd>
-        <dt>Identificador</dt><dd>DOI de Zenodo pendiente (identificador de depósito, no identificador ODA)</dd>
+        <dt>Identificador</dt><dd>DOI 10.5281/zenodo.23883743 (identificador de depósito, no identificador ODA)</dd>
       </dl>
       <p class="note">Este expediente lo prepara el grupo IPEX (URJC) como demostrador del método ODA. No es una evaluación de Fund_ODA ni declara que la obra sea un ODA reconocido: registra qué metadatos satisface la obra y propone una valoración revisable.</p>
     </div>

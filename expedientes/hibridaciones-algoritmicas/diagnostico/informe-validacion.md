@@ -9,7 +9,7 @@ Los avisos señalan elementos opcionales (O) que no constan: no bloquean, pero c
 
 | | Cubierto | Laguna declarada | No consta |
 |---|---|---|---|
-| Obligatorios (C) | 22 | 3 | 0 |
+| Obligatorios (C) | 24 | 1 | 0 |
 | Opcionales (O) | 11 | 0 | 4 |
 
 Afirmaciones relacionales: 13 (7 documentada autor, 3 interpretativa, 3 observable).
@@ -24,7 +24,7 @@ Afirmaciones relacionales: 13 (7 documentada autor, 3 interpretativa, 3 observab
 | 1.4 | Descriptiva | Descripción | C | documentado | cubierto |
 | 1.5 | Descriptiva | Fecha | C | desconocido, inferido | cubierto |
 | 1.6 | Descriptiva | Formato | C | inferido | cubierto |
-| 1.7 | Descriptiva | Identificador | C | pendiente | laguna declarada |
+| 1.7 | Descriptiva | Identificador | C | documentado | cubierto |
 | 1.8 | Descriptiva | Fuente | O | documentado | cubierto |
 | 1.9 | Descriptiva | Idioma | C | no aplicable | laguna declarada |
 | 1.10 | Descriptiva | Relación | O | documentado | cubierto |
@@ -43,7 +43,7 @@ Afirmaciones relacionales: 13 (7 documentada autor, 3 interpretativa, 3 observab
 | 3.2 | Preservación | Vías de migración | C | documentado | cubierto |
 | 3.3 | Preservación | Suma de comprobación y valores hash | C | documentado | cubierto |
 | 3.4 | Preservación | Estructura compleja de objetos | O | documentado | cubierto |
-| 3.5 | Preservación | Lugar de almacenamiento | C | desconocido, pendiente | laguna declarada |
+| 3.5 | Preservación | Lugar de almacenamiento | C | desconocido, documentado | cubierto |
 | 4.1 | Derechos | Estado de los derechos | C | documentado | cubierto |
 | 4.2 | Derechos | Términos de la licencia | C | documentado | cubierto |
 | 4.3 | Derechos | Permisos y restricciones | C | documentado | cubierto |

@@ -7,7 +7,7 @@
 
 ## Resumen
 
-La obra está bien documentada en lo que más pesa en el libro: la intención, el proceso y la técnica. El expediente cubre 22 de los 25 elementos obligatorios. Los otros 3 están declarados como laguna con su motivo: el identificador, que se asignará en el depósito; el idioma, que no se aplica; y el lugar donde se conserva el original, que no consta. De los 15 elementos opcionales, constan 11.
+La obra está bien documentada en lo que más pesa en el libro: la intención, el proceso y la técnica. El expediente cubre 24 de los 25 elementos obligatorios. El restante, el idioma, está declarado como no aplicable. El identificador es el DOI de depósito 10.5281/zenodo.23883743; el lugar donde se conserva el original sigue sin constar. De los 15 elementos opcionales, constan 11.
 
 Los riesgos principales son dos. En lo estructural, no se puede saber qué versión del código y qué parámetros produjeron «5 VAR-1 GPT7». En lo experiencial, la intervención del autor no está descrita, y es por definición irrepetible. Se proponen medidas concretas para ambos.
 
@@ -15,7 +15,7 @@ Los riesgos principales son dos. En lo estructural, no se puede saber qué versi
 
 | | Cubierto | Laguna declarada | No consta |
 |---|---|---|---|
-| Obligatorios (C) | 22 | 3 | 0 |
+| Obligatorios (C) | 24 | 1 | 0 |
 | Opcionales (O) | 11 | 0 | 4 |
 
 No constan cobertura (1.11), simbolismo (5.3), recepción crítica (5.6) ni contexto histórico (5.7). El detalle está en [`informe-validacion.md`](informe-validacion.md).
@@ -94,7 +94,7 @@ El libro sitúa la condición aurática en un continuum entre débil y fuerte. D
 | Singularidad | La técnica mixta combina un trazado repetible con una intervención irrepetible: cada hoja es única aunque el código sea determinista | Refuerza |
 | Interacción con la tecnología digital | La obra se genera con un sistema de código propio y un plotter, en diálogo con la mano del autor | Refuerza |
 | Condiciones de creación | El autor documenta la intención, la hibridación y la evolución del sistema en su cuaderno | Refuerza |
-| Documentación | Están cubiertos 22 de 25 elementos obligatorios, pero falta la versión exacta del código y la intervención no está descrita | Refuerza en parte |
+| Documentación | Están cubiertos 24 de 25 elementos obligatorios, pero falta la versión exacta del código y la intervención no está descrita | Refuerza en parte |
 | Condiciones de exhibición | Consta una exposición (COAM, 2025), sin título, fechas ni catálogo | Sin datos suficientes |
 | Importancia cultural | No hay recepción crítica ni contexto histórico documentados | Sin datos suficientes |
 | Impacto en los espectadores | No hay registros | Sin datos suficientes |
