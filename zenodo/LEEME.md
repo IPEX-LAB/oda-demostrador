@@ -10,7 +10,7 @@ El demostrador se deposita en tres registros enlazados entre sí. Hacen falta tr
 
 ## Orden recomendado
 
-1. **Comprobar el identificador de la comunidad.** Los ficheros usan `ipex`; hay que confirmarlo con la URL de la comunidad (`zenodo.org/communities/<identificador>`).
+1. **Comunidad:** IPEX. Grupo de investigación en Interfaces y Prototipos experimentales (`zenodo.org/communities/ipex-urjc`). Los ficheros ya usan el identificador `ipex-urjc`.
 2. **Crear los tres registros como borrador y reservar sus DOI** con la opción de reserva del formulario. Los DOI reservados no se publican hasta que se publica el registro.
 3. **Sustituir los marcadores** `DOI-DEL-REGISTRO-DEL-METODO`, `DOI-DEL-EXPEDIENTE` y `DOI-DEL-REGISTRO-RESTRINGIDO` por los DOI reservados. Actualizar también el registro 1.7 (Identificador) del expediente y volver a ejecutar `scripts/exportar_edm.py --url-imagen` con la URL definitiva de la imagen.
 4. **Regenerar el expediente** con `scripts/construir_todo.sh` y verificar las sumas.
