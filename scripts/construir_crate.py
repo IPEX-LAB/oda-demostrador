@@ -115,7 +115,7 @@ def main():
         {"@id": "#5-var-1-gpt7", "@type": "VisualArtwork", "name": "5 VAR-1 GPT7",
          "creator": {"@id": "https://orcid.org/0000-0003-3630-5474"},
          "contributor": {"@id": "https://orcid.org/0000-0002-0449-9975"},
-         "creditText": "Juan Alonso López Iniesta. Realización de la parte física: Mauro Herrero Cantos.",
+         "creditText": "Juan Alonso López Iniesta. Montaje y soporte: Mauro Herrero Cantos.",
          "artMedium": "Técnica mixta: plotter de pluma e intervención del autor",
          "artworkSurface": "Papel",
          "isPartOf": {"@id": "#obra"},

@@ -163,7 +163,7 @@
       ],
       "valor": "Juan Alonso López Iniesta",
       "fuente": "Información del equipo IPEX, 02-11-2026",
-      "nota": "Mauro Herrero Cantos se encargó de la parte física de la obra y por eso figura en la propuesta para el COAM; la autoría artística es de Juan Alonso López Iniesta."
+      "nota": "Mauro Herrero Cantos realizó el montaje y el soporte de la obra, y por eso figura en la propuesta para el COAM; la autoría artística es de Juan Alonso López Iniesta."
     },
     {
       "@id": "#r1_3",
@@ -459,7 +459,7 @@
         "#juan-alonso",
         "#mauro-herrero"
       ],
-      "valor": "Autor: Juan Alonso López Iniesta. Realización de la parte física: Mauro Herrero Cantos.",
+      "valor": "Autor: Juan Alonso López Iniesta. Montaje y soporte: Mauro Herrero Cantos.",
       "fuente": "Información del equipo IPEX, 02-11-2026"
     },
     {
@@ -723,7 +723,7 @@
       "@id": "#a13",
       "@type": "Afirmacion",
       "sujeto": "#mauro-herrero",
-      "predicado": "se encargó de la parte física de",
+      "predicado": "realizó el montaje y el soporte de",
       "objeto": "5 VAR-1 GPT7",
       "responsable": "Equipo IPEX, por indicación de los autores",
       "evidencia": [
@@ -732,7 +732,7 @@
       "fecha": "2026-11-02",
       "estatuto": "documentada_autor",
       "validacion": "pendiente_validacion",
-      "nota": "No es coautor de la obra artística. Conviene precisar qué abarcó la parte física (trazado, soporte, montaje)."
+      "nota": "No es coautor de la obra artística."
     }
   ]
 }

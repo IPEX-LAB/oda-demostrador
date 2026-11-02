@@ -19,6 +19,11 @@
     <dc:subject xml:lang="es">Arte generativo</dc:subject>
     <edm:type>IMAGE</edm:type>
   </rdf:Description>
+  <rdf:Description rdf:about="https://zenodo.org/records/PENDIENTE/files/5-VAR-1-GPT7_1200px.jpg">
+    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
+    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
+    <dc:format>image/jpeg</dc:format>
+  </rdf:Description>
   <rdf:Description rdf:about="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#aggregation">
     <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
     <edm:aggregatedCHO rdf:resource="https://w3id.org/oda-lab/expedientes/hibridaciones-algoritmicas#cho"/>
@@ -26,10 +31,5 @@
     <edm:dataProvider>IPEX, Universidad Rey Juan Carlos</edm:dataProvider>
     <edm:provider>IPEX, Universidad Rey Juan Carlos</edm:provider>
     <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="https://zenodo.org/records/PENDIENTE/files/5-VAR-1-GPT7_1200px.jpg">
-    <rdf:type rdf:resource="http://www.europeana.eu/schemas/edm/WebResource"/>
-    <edm:rights rdf:resource="http://creativecommons.org/licenses/by-nc-nd/4.0/"/>
-    <dc:format>image/jpeg</dc:format>
   </rdf:Description>
 </rdf:RDF>

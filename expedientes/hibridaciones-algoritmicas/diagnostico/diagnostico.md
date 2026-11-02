@@ -1,7 +1,7 @@
 # Diagnóstico de preservación y valoración aurática
 
 **Obra:** Hibridaciones algorítmicas (Juan Alonso López Iniesta)
-**Obra resultante:** «5 VAR-1 GPT7» (Juan Alonso López Iniesta; parte física realizada por Mauro Herrero Cantos). Técnica mixta: plotter de pluma e intervención del autor.
+**Obra resultante:** «5 VAR-1 GPT7» (Juan Alonso López Iniesta; montaje y soporte de Mauro Herrero Cantos). Técnica mixta: plotter de pluma e intervención del autor.
 **Preparado por:** IPEX, Grupo de Investigación en Interfaces y Prototipos Experimentales (URJC), 2 de noviembre de 2026
 **Carácter:** demostrador del método ODA. No es una evaluación de Fund_ODA, y todas las afirmaciones interpretativas están pendientes de revisión por el autor.
 
@@ -51,7 +51,7 @@ No constan cobertura (1.11), simbolismo (5.3), recepción crítica (5.6) ni cont
 ### Experiencial: comportamiento y presencia de la obra. Riesgo alto.
 
 - **La técnica es mixta: plotter de pluma e intervención del autor.** La parte trazada por el plotter es repetible; la intervención no lo es. En la fotografía se aprecia una capa de líneas rojas de trazo irregular, distinta de la serie oscura. La hipótesis de que esa capa sea la intervención es interpretativa, con incertidumbre alta.
-- **No constan las dimensiones de la hoja, el papel, las plumas ni las tintas.**
+- **No constan las dimensiones de la hoja, el papel, las plumas ni las tintas.** El montaje y el soporte los realizó Mauro Herrero Cantos; sus materiales tampoco constan.
 - **No consta dónde se conserva el original.**
 
 **Recomendación.** Describir la intervención: en qué consiste, con qué material se hizo y en qué momento del proceso. Registrar dimensiones, papel y tintas. Hacer una captura en alta resolución con luz controlada y una carta de color. Indicar dónde se custodia el original.
@@ -104,11 +104,10 @@ El libro sitúa la condición aurática en un continuum entre débil y fuerte. D
 ## Preguntas para los autores
 
 1. ¿En qué consistió la intervención del autor? ¿Es la capa roja?
-2. ¿Qué abarcó la parte física de la que se encargó Mauro Herrero Cantos (trazado, soporte, montaje)?
-3. ¿Con qué versión del código y qué parámetros se trazó la obra? ¿Se conserva el fichero?
-4. ¿Cómo encaja la fecha de la obra (2025) con el cuaderno, que describe la curva derecha como una variación en curso en 2026?
-5. ¿Qué medidas tiene la hoja y qué papel, plumas y tintas se usaron?
-6. ¿Dónde se conserva el original?
-7. ¿Qué datos hay de la exposición en el COAM (título, fechas, comisariado, catálogo)?
-8. ¿Quién hizo la fotografía?
-9. ¿Qué significa el título «5 VAR-1 GPT7»? Si responde a una nomenclatura de la serie, conviene registrarla.
+2. ¿Con qué versión del código y qué parámetros se trazó la obra? ¿Se conserva el fichero?
+3. ¿Cómo encaja la fecha de la obra (2025) con el cuaderno, que describe la curva derecha como una variación en curso en 2026?
+4. ¿Qué medidas tiene la hoja, qué papel, plumas y tintas se usaron, y con qué materiales se hicieron el montaje y el soporte?
+5. ¿Dónde se conserva el original?
+6. ¿Qué datos hay de la exposición en el COAM (título, fechas, comisariado, catálogo)?
+7. ¿Quién hizo la fotografía?
+8. ¿Qué significa el título «5 VAR-1 GPT7»? Si responde a una nomenclatura de la serie, conviene registrarla.

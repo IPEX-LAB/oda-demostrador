@@ -115,7 +115,7 @@
       "name": "Expediente ODA (registros y afirmaciones)",
       "encodingFormat": "application/ld+json",
       "description": "Registros de los 40 elementos del perfil ODA y afirmaciones relacionales con estatuto epistemológico.",
-      "contentSize": "26586",
+      "contentSize": "26497",
       "conformsTo": {
         "@id": "https://w3id.org/oda-lab/perfil"
       }
@@ -156,7 +156,7 @@
       "name": "Grafo de relaciones",
       "encodingFormat": "image/svg+xml",
       "description": "Afirmaciones del expediente dibujadas por estatuto: documentadas por el autor, observables e interpretativas.",
-      "contentSize": "8671"
+      "contentSize": "8676"
     },
     {
       "@id": "diagnostico/diagnostico.md",
@@ -167,7 +167,7 @@
       "license": {
         "@id": "https://creativecommons.org/licenses/by/4.0/"
       },
-      "contentSize": "10418"
+      "contentSize": "10453"
     },
     {
       "@id": "diagnostico/informe-validacion.md",
@@ -248,7 +248,7 @@
       "contributor": {
         "@id": "https://orcid.org/0000-0002-0449-9975"
       },
-      "creditText": "Juan Alonso López Iniesta. Realización de la parte física: Mauro Herrero Cantos.",
+      "creditText": "Juan Alonso López Iniesta. Montaje y soporte: Mauro Herrero Cantos.",
       "artMedium": "Técnica mixta: plotter de pluma e intervención del autor",
       "artworkSurface": "Papel",
       "isPartOf": {

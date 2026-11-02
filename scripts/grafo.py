@@ -47,7 +47,7 @@ ARISTAS = {
     "a10": ("obra5", "coam", "expuesta en"),
     "a11": ("foto", "obra5", "representa"),
     "a12": ("cuad", "obra", "documenta"),
-    "a13": ("mauro", "obra5", "parte física"),
+    "a13": ("mauro", "obra5", "montaje y soporte"),
 }
 ESTILO = {
     "documentada_autor": ("#3a3f4b", ""),

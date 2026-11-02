@@ -40,10 +40,9 @@ CRITERIOS = [
 ]
 PREGUNTAS = [
     "¿En qué consistió la intervención del autor? ¿Es la capa roja?",
-    "¿Qué abarcó la parte física de la que se encargó Mauro Herrero Cantos?",
     "¿Con qué versión del código y qué parámetros se trazó la obra?",
     "¿Cómo encaja la fecha de la obra (2025) con el cuaderno de 2026?",
-    "¿Qué medidas tiene la hoja y qué papel, plumas y tintas se usaron?",
+    "¿Qué medidas tiene la hoja, qué papel, plumas y tintas se usaron, y con qué materiales se hicieron el montaje y el soporte?",
     "¿Dónde se conserva el original?",
     "¿Qué datos hay de la exposición en el COAM?",
     "¿Quién hizo la fotografía?",
@@ -222,7 +221,7 @@ def main():
       </div>
       <dl class="meta">
         <dt>Autor</dt><dd>Juan Alonso López Iniesta</dd>
-        <dt>Parte física</dt><dd>Mauro Herrero Cantos</dd>
+        <dt>Montaje y soporte</dt><dd>Mauro Herrero Cantos</dd>
         <dt>Técnica</dt><dd>Técnica mixta: plotter de pluma e intervención del autor</dd>
         <dt>Soporte</dt><dd>Papel (dimensiones sin documentar)</dd>
         <dt>Referente</dt><dd>Principios operativos de la obra de Nasreen Mohamedi: ritmo, ruptura o silencio, acumulación</dd>
@@ -263,7 +262,7 @@ def main():
       <h2 id="s-rel">Relaciones y su estatuto</h2>
       <p class="lead">Cada relación dice quién la sostiene y con qué evidencia. Las discontinuas son hipótesis del equipo que los autores deben confirmar.</p>
     </div>
-    <figure class="graph"><img src="img/grafo.svg" alt="Grafo de relaciones: Hibridaciones algorítmicas se basa en la perspectiva cónica, toma como referente a Nasreen Mohamedi y traduce su silencio en la ruptura; «5 VAR-1 GPT7» es su obra resultante, se expuso en el COAM en 2025, Mauro Herrero Cantos se encargó de su parte física, y presenta una franja sin trazos y una capa roja de trazo irregular. Son hipótesis que la capa roja sea la intervención del autor, que la obra se generara con el estado de curva derecha y que el código base no sea su versión."></figure>
+    <figure class="graph"><img src="img/grafo.svg" alt="Grafo de relaciones: Hibridaciones algorítmicas se basa en la perspectiva cónica, toma como referente a Nasreen Mohamedi y traduce su silencio en la ruptura; «5 VAR-1 GPT7» es su obra resultante, se expuso en el COAM en 2025, Mauro Herrero Cantos realizó su montaje y soporte, y presenta una franja sin trazos y una capa roja de trazo irregular. Son hipótesis que la capa roja sea la intervención del autor, que la obra se generara con el estado de curva derecha y que el código base no sea su versión."></figure>
   </section>
 
   <section aria-labelledby="s-diag">
